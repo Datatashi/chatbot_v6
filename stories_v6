@@ -1,0 +1,1229 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: bob_help
+  steps:
+  - intent: bob_help
+  - action: utter_bob_help
+###############################################################
+
+- story: atmfacilities
+  steps:
+  - intent: atmfacilities
+  - action: utter_atmfacilities
+
+- story: atmavail
+  steps:
+  - intent: atmavail
+  - action: utter_atmavail
+
+- story: atmeligibility
+  steps:
+  - intent: atmeligibility
+  - action: utter_atmeligibility
+
+- story: atmcharges
+  steps:
+  - intent: atmcharges
+  - action: utter_atmcharges
+
+- story: atmreceive
+  steps:
+  - intent: atmreceive
+  - action: utter_atmreceive
+
+- story: atm_lost
+  steps:
+  - intent: atm_lost
+  - action: utter_atm_lost
+
+- story: atmreplace
+  steps:
+  - intent: atmreplace
+  - action: utter_atmreplace
+
+- story: atmwithdraw
+  steps:
+  - intent: atmwithdraw
+  - action: utter_atmwithdraw
+
+- story: atmfast
+  steps:
+  - intent: atmfast
+  - action: utter_atmfast
+
+# Cards --------------------------------------------------------------------------------
+- story: cards
+  steps:
+  - intent: cards
+  - action: utter_cards
+
+- story: card_avail_service
+  steps:
+  - intent: card_avail_service
+  - action: utter_card_avail_service
+
+- story: card_security
+  steps:
+  - intent: card_security
+  - action: utter_card_security
+
+
+- story: card_avail
+  steps:
+  - intent: card_avail
+  - action: utter_card_avail
+
+- story: card_choose
+  steps:
+  - intent: card_choose
+  - action: utter_card_choose
+
+- story: card_fee
+  steps:
+  - intent: card_fee
+  - action: utter_card_fee
+
+- story: card_amount
+  steps:
+  - intent: card_amount
+  - action: utter_card_amount
+
+- story: card_wait_time
+  steps:
+  - intent: card_wait_time
+  - action: utter_card_wait_time
+
+- story: card_debt
+  steps:
+  - intent: card_debt
+  - action: utter_card_debt
+
+- story: card_abroad
+  steps:
+  - intent: card_abroad
+  - action: utter_card_abroad
+
+- story: card_difference
+  steps:
+  - intent: card_difference
+  - action: utter_card_difference
+
+
+- story: card_repayment
+  steps:
+  - intent: card_repayment
+  - action: utter_card_repayment
+
+- story: card_withdraw
+  steps:
+  - intent: card_withdraw
+  - action: utter_card_withdraw
+
+- story: card_charges
+  steps:
+  - intent: card_charges
+  - action: utter_card_charges
+
+
+- story: card_min_charges
+  steps:
+  - intent: card_min
+  - action: utter_card_min
+
+- story: card_lose
+  steps:
+  - intent: card_lose
+  - action: utter_card_lose
+
+- story: card_working
+  steps:
+  - intent: card_working
+  - action: utter_card_working
+
+- story: card_debit_outside
+  steps:
+  - intent: card_debit_outside
+  - action: utter_card_debit_outside
+
+- story: card_prepaid
+  steps:
+  - intent: card_prepaid
+  - action: utter_card_prepaid
+
+- story: card_reload
+  steps:
+  - intent: card_reload
+  - action: utter_card_reload
+
+
+- story: card_reload_charge
+  steps:
+  - intent: card_reload_charge
+  - action: utter_card_reload_charge
+
+- story: card_balance_claim
+  steps:
+  - intent: card_balance_claim
+  - action: utter_card_balance_claim
+
+- story: card_benefit
+  steps:
+  - intent: card_benefit
+  - action: utter_card_benefit
+
+
+- story: card_bill
+  steps:
+  - intent: card_bill
+  - action: utter_card_bill
+
+- story: card_domestic_region
+  steps:
+  - intent: card_domestic_region
+  - action: utter_card_domestic_region
+
+- story: card_max_limit
+  steps:
+  - intent: card_max_limit
+  - action: utter_card_max_limit
+
+- story: card_debit_charges
+  steps:
+  - intent: card_debit_charges
+  - action: utter_card_debit_charges
+
+- story: domcard
+  steps:
+  - intent: domcard
+  - action: utter_domcard
+
+# mbob -----------------------------------------------------
+- story: mbob
+  steps:
+  - intent: mbob
+  - action: utter_mbob
+
+- story: mbob_os
+  steps:
+  - intent: mbob_os
+  - action: utter_mbob_os
+
+- story: mbob_min_os
+  steps:
+  - intent: mbob_min_os
+  - action: utter_mbob_min_os
+
+- story: mbob_charges
+  steps:
+  - intent: mbob_charges
+  - action: utter_mbob_charges
+
+- story: mbob_download
+  steps:
+  - intent: mbob_download
+  - action: utter_mbob_download
+
+- story: mbob_space
+  steps:
+  - intent: mbob_space
+  - action: utter_mbob_space
+
+- story: mbob_outside
+  steps:
+  - intent: mbob_outside
+  - action: utter_mbob_outside
+
+- story: mbob_no_internet
+  steps:
+  - intent: mbob_no_internet
+  - action: utter_mbob_no_internet
+
+- story: mbob_sim
+  steps:
+  - intent: mbob_sim
+  - action: utter_mbob_sim
+
+- story: mbob_online
+  steps:
+  - intent: mbob_online
+  - action: utter_mbob_online
+
+- story: mbob_pin
+  steps:
+  - intent: mbob_pin
+  - action: utter_mbob_pin
+
+- story: mbob_start
+  steps:
+  - intent: mbob_start
+  - action: utter_mbob_start
+
+- story: m_pin
+  steps:
+  - intent: m_pin
+  - action: utter_m_pin
+
+- story: mbob_wrong_mpin
+  steps:
+  - intent: mbob_wrong_mpin
+  - action: utter_mbob_wrong_mpin
+
+- story: mbob_unblock_mpin
+  steps:
+  - intent: mbob_unblock_mpin
+  - action: utter_mbob_unblock_mpin
+
+- story: mbob_mpin_after_block
+  steps:
+  - intent: mbob_mpin_after_block
+  - action: utter_mbob_mpin_after_block
+
+- story: mpin_forgotten
+  steps:
+  - intent: mpin_forgotten
+  - action: utter_mpin_forgotten
+
+- story: mbob_tpin
+  steps:
+  - intent: mbob_tpin
+  - action: utter_mbob_tpin
+
+- story: mbob_user
+  steps:
+  - intent: mbob_user
+  - action: utter_mbob_user
+
+
+- story: mbob_dzongkha
+  steps:
+  - intent: mbob_dzongkha
+  - action: utter_mbob_dzongkha
+
+- story: mbob_link
+  steps:
+  - intent: mbob_link
+  - action: utter_mbob_link
+
+- story: mbob_joint
+  steps:
+  - intent: mbob_joint
+  - action: utter_mbob_joint
+
+- story: mbob_link_joint
+  steps:
+  - intent: mbob_link_joint
+  - action: utter_mbob_link_joint
+
+- story: mbob_minor
+  steps:
+  - intent: mbob_minor
+  - action: utter_mbob_minor
+
+- story: mbob_minor_register
+  steps:
+  - intent: mbob_minor_register
+  - action: utter_mbob_minor_register
+
+- story: mbob_fingerprint
+  steps:
+  - intent: mbob_fingerprint
+  - action: utter_mbob_fingerprint
+
+- story: mbob_services
+  steps:
+  - intent: mbob_services
+  - action: utter_mbob_services
+
+- story: mbob_details
+  steps:
+  - intent: mbob_details
+  - action: utter_mbob_details
+
+- story: mbob_func_transfer
+  steps:
+  - intent: mbob_func_transfer
+  - action: utter_mbob_func_transfer
+
+- story: mbob_transaction
+  steps:
+  - intent: mbob_transaction
+  - action: utter_mbob_transaction
+
+- story: mbob_pay
+  steps:
+  - intent: mbob_pay
+  - action: utter_mbob_pay
+
+- story: mbob_report_transaction
+  steps:
+  - intent: mbob_report_transaction
+  - action: utter_mbob_report_transaction
+
+- story: mbob_protect
+  steps:
+  - intent: mbob_protect
+  - action: utter_mbob_protect
+
+- story: mbob_stolen
+  steps:
+  - intent: mbob_stolen
+  - action: utter_mbob_stolen
+
+- story: mbob_change
+  steps:
+  - intent: mbob_change
+  - action: utter_mbob_change
+
+- story: mbob_external
+  steps:
+  - intent: mbob_external
+  - action: utter_mbob_external
+
+- story: mbob_payment_merchant
+  steps:
+  - intent: mbob_payment_merchant
+  - action: utter_mbob_payment_merchant
+
+- story: mbob_wrong_transfer
+  steps:
+  - intent: mbob_wrong_transfer
+  - action: utter_mbob_wrong_transfer
+
+
+- story: mbob_wrong_beneficiary
+  steps:
+  - intent: mbob_wrong_beneficiary
+  - action: utter_mbob_wrong_beneficiary
+
+- story: mbob_report_undue
+  steps:
+  - intent: mbob_report_undue
+  - action: utter_mbob_report_undue
+
+- story: mbob_why_no_payment
+  steps:
+  - intent: mbob_why_no_payment
+  - action: utter_mbob_why_no_payment
+
+- story: mbob_no_receive
+  steps:
+  - intent: mbob_no_receive
+  - action: utter_mbob_no_receive
+
+- story: mbob_beneficiary_account_check
+  steps:
+  - intent: mbob_beneficiary_account_check
+  - action: utter_mbob_beneficiary_account_check
+
+- story: mbob_complaint_fail_transfer
+  steps:
+  - intent: mbob_complaint_fail_transfer
+  - action: utter_mbob_complaint_fail_transfer
+
+- story: mbob_interbank_reverse
+  steps:
+  - intent: mbob_interbank_reverse
+  - action: utter_mbob_interbank_reverse
+
+
+- story: mbob_redo_iferror
+  steps:
+  - intent: mbob_redo_iferror
+  - action: utter_mbob_redo_iferror
+
+- story: mbob_userid
+  steps:
+  - intent: mbob_userid
+  - action: utter_mbob_userid
+
+- story: mbob_scan_pay
+  steps:
+  - intent: mbob_scan_pay
+  - action: utter_mbob_scan_pay
+
+- story: mbob_qr
+  steps:
+  - intent: mbob_qr
+  - action: utter_mbob_qr
+
+- story: mbob_interbank_payment
+  steps:
+  - intent: mbob_interbank_payment
+  - action: utter_mbob_interbank_payment
+
+- story: mbob_otherbank_merchant
+  steps:
+  - intent: mbob_otherbank_merchant
+  - action: utter_mbob_otherbank_merchant
+
+- story: mbob_qr_blank
+  steps:
+  - intent: mbob_qr_blank
+  - action: utter_mbob_qr_blank
+
+
+- story: mbob_when_scan
+  steps:
+  - intent: mbob_when_scan
+  - action: utter_mbob_when_scan
+
+- story: mbob_fix_recur
+  steps:
+  - intent: mbob_fix_recur
+  - action: utter_mbob_fix_recur
+
+- story: mbob_deduct_recur
+  steps:
+  - intent: mbob_deduct_recur
+  - action: utter_mbob_deduct_recur
+
+- story: mbob_close_term
+  steps:
+  - intent: mbob_close_term
+  - action: utter_mbob_close_term
+
+- story: mbob_termdeposit_not_closed
+  steps:
+  - intent: mbob_termdeposit_not_closed
+  - action: utter_mbob_termdeposit_not_closed
+
+- story: mbob_renewal_card
+  steps:
+  - intent: mbob_renewal_card
+  - action: utter_mbob_renewal_card
+
+- story: mbob_replace_benefit
+  steps:
+  - intent: mbob_replace_benefit
+  - action: utter_mbob_replace_benefit
+
+
+- story: mbob_donate
+  steps:
+  - intent: mbob_donate
+  - action: utter_mbob_donate
+
+- story: mbob_statement
+  steps:
+  - intent: mbob_statement
+  - action: utter_mbob_statement
+
+- story: mbob_max_statement
+  steps:
+  - intent: mbob_max_statement
+  - action: utter_mbob_max_statement
+
+- story: mbob_email
+  steps:
+  - intent: mbob_email
+  - action: utter_mbob_email
+
+- story: mbob_update_email
+  steps:
+  - intent: mbob_update_email
+  - action: utter_mbob_update_email
+
+- story: mbob_cardless_atm
+  steps:
+  - intent: mbob_cardless_atm
+  - action: utter_mbob_cardless_atm
+
+- story: mbob_cardless_problem
+  steps:
+  - intent: mbob_cardless_problem
+  - action: utter_mbob_cardless_problem
+
+
+- story: mbob_cardless_withdrawal
+  steps:
+  - intent: mbob_cardless_withdrawal
+  - action: utter_mbob_cardless_withdrawal
+
+- story: mbob_cardless_otherbank
+  steps:
+  - intent: mbob_cardless_otherbank
+  - action: utter_mbob_cardless_otherbank
+
+- story: mbob_noaccount_atm
+  steps:
+  - intent: mbob_noaccount_atm
+  - action: utter_mbob_noaccount_atm
+
+- story: mbob_delink
+  steps:
+  - intent: mbob_delink
+  - action: utter_mbob_delink
+
+- story: mbob_los
+  steps:
+  - intent: mbob_los
+  - action: utter_mbob_los
+
+- story: mbob_loan_account
+  steps:
+  - intent: mbob_loan_account
+  - action: utter_mbob_loan_account
+
+- story: mbob_airticket
+  steps:
+  - intent: mbob_airticket
+  - action: utter_mbob_airticket
+
+- story: mbob_features
+  steps:
+  - intent: mbob_features
+  - action: utter_mbob_features
+
+- story: mbob_reward
+  steps:
+  - intent: mbob_reward
+  - action: utter_mbob_reward
+
+- story: mbob_transfer_limit
+  steps:
+  - intent: mbob_transfer_limit
+  - action: utter_mbob_transfer_limit
+
+- story: mbob_customer_categories
+  steps:
+  - intent: mbob_customer_categories
+  - action: utter_mbob_customer_categories
+
+- story: mbob_thumb
+  steps:
+  - intent: mbob_thumb
+  - action: utter_mbob_thumb
+
+- story: mbob_categories_limit
+  steps:
+  - intent: mbob_categories_limit
+  - action: utter_mbob_categories_limit
+
+- story: mbob_categories_interbank
+  steps:
+  - intent: mbob_categories_interbank
+  - action: utter_mbob_categories_interbank
+
+
+- story: mbob_thumb_online_register
+  steps:
+  - intent: mbob_thumb_online_register
+  - action: utter_mbob_thumb_online_register
+
+- story: mbob_thumb_doc
+  steps:
+  - intent: mbob_thumb_doc
+  - action: utter_mbob_thumb_doc
+
+- story: mbob_thumb_cardless
+  steps:
+  - intent: mbob_thumb_cardless
+  - action: utter_mbob_thumb_cardless
+
+- story: mbob_thumb_mpin
+  steps:
+  - intent: mbob_thumb_mpin
+  - action: utter_mbob_thumb_mpin
+
+- story: mbob_thumb_categories_limit
+  steps:
+  - intent: mbob_thumb_categories_limit
+  - action: utter_mbob_thumb_categories_limit
+
+- story: mbob_thumb_categories
+  steps:
+  - intent: mbob_thumb_categories
+  - action: utter_mbob_thumb_categories
+
+- story: mbob_premiums
+  steps:
+  - intent: mbob_premiums
+  - action: utter_mbob_premiums
+
+
+- story: mbob_report_stops
+  steps:
+  - intent: mbob_report_stops
+  - action: utter_mbob_report_stops
+
+- story: mbob_services_recharge
+  steps:
+  - intent: mbob_services_recharge
+  - action: utter_mbob_services_recharge
+
+- story: mbob_alarts
+  steps:
+  - intent: mbob_alarts
+  - action: utter_mbob_alarts
+
+- story: mbob_fake
+  steps:
+  - intent: mbob_fake
+  - action: utter_mbob_fake
+
+- story: mbob_update
+  steps:
+  - intent: mbob_update
+  - action: utter_mbob_update
+
+- story: mbob_over_cash
+  steps:
+  - intent: mbob_over_cash
+  - action: utter_mbob_over_cash
+
+- story: mbob_safety_tips
+  steps:
+  - intent: mbob_safety_tips
+  - action: utter_mbob_safety_tips
+
+# gbob ---------------------------------------------------
+- story: gobob_download
+  steps:
+  - intent: gobob_download
+  - action: utter_gobob_download
+
+- story: gobob_register
+  steps:
+  - intent: gobob_register
+  - action: utter_gobob_register
+
+- story: gobob_features
+  steps:
+  - intent: gobob_features
+  - action: utter_gobob_features
+
+- story: gobob_benefit
+  steps:
+  - intent: gobob_benefit
+  - action: utter_gobob_benefit
+
+- story: gobob_mbob
+  steps:
+  - intent: gobob_mbob
+  - action: utter_gobob_mbob
+
+- story: gobob_customers
+  steps:
+  - intent: gobob_customers
+  - action: utter_gobob_customers
+
+- story: gobob_cost
+  steps:
+  - intent: gobob_cost
+  - action: utter_gobob_cost
+
+- story: gobob_security
+  steps:
+  - intent: gobob_security
+  - action: utter_gobob_security
+
+# operations -----------------------------------------------
+- story: op_flex_recur_deposit
+  steps:
+  - intent: op_flex_recur_deposit
+  - action: utter_op_flex_recur_deposit
+
+- story: op_flex_max
+  steps:
+  - intent: op_flex_max
+  - action: utter_op_flex_max
+
+- story: op_flex_doc
+  steps:
+  - intent: op_flex_doc
+  - action: utter_op_flex_doc
+
+- story: op_flex_alternative
+  steps:
+  - intent: op_flex_alternative
+  - action: utter_op_flex_alternative
+
+- story: op_flex_amount
+  steps:
+  - intent: op_flex_amount
+  - action: utter_op_flex_amount
+
+- story: op_flex_premature
+  steps:
+  - intent: op_flex_premature
+  - action: utter_op_flex_premature
+
+- story: op_flex_installment
+  steps:
+  - intent: op_flex_installment
+  - action: utter_op_flex_installment
+
+- story: op_flex_min
+  steps:
+  - intent: op_flex_min
+  - action: utter_op_flex_min
+
+- story: op_flex_open
+  steps:
+  - intent: op_flex_open
+  - action: utter_op_flex_open
+
+- story: op_flex_best
+  steps:
+  - intent: op_flex_best
+  - action: utter_op_flex_best
+
+
+- story: op_fixed
+  steps:
+  - intent: op_fixed
+  - action: utter_op_fixed
+
+- story: op_fixed_who
+  steps:
+  - intent: op_fixed_who
+  - action: utter_op_fixed_who
+
+- story: op_fixed_freq
+  steps:
+  - intent: op_fixed_freq
+  - action: utter_op_fixed_freq
+
+- story: op_fixed_tenure
+  steps:
+  - intent: op_fixed_tenure
+  - action: utter_op_fixed_tenure
+
+- story: op_fixed_loan
+  steps:
+  - intent: op_fixed_loan
+  - action: utter_op_fixed_loan
+
+- story: op_fixed_doc
+  steps:
+  - intent: op_fixed_doc
+  - action: utter_op_fixed_doc
+
+- story: op_partial
+  steps:
+  - intent: op_partial
+  - action: utter_op_partial
+
+- story: op_fixed_premature
+  steps:
+  - intent: op_fixed_premature
+  - action: utter_op_fixed_premature
+
+- story: op_fixed_mature
+  steps:
+  - intent: op_fixed_mature
+  - action: utter_op_fixed_mature
+
+- story: op_fixed_mbob
+  steps:
+  - intent: op_fixed_mbob
+  - action: utter_op_fixed_mbob
+
+
+- story: op_cheque
+  steps:
+  - intent: op_cheque
+  - action: utter_op_cheque
+
+- story: op_cheque_nobalance
+  steps:
+  - intent: op_cheque_nobalance
+  - action: utter_op_cheque_nobalance
+
+- story: op_cheque_booklet
+  steps:
+  - intent: op_cheque_booklet
+  - action: utter_op_cheque_booklet
+
+- story: op_cheque_cost
+  steps:
+  - intent: op_cheque_cost
+  - action: utter_op_cheque_cost
+
+- story: op_cheque_personal
+  steps:
+  - intent: op_cheque_personal
+  - action: utter_op_cheque_personal
+
+- story: op_cheque_multi
+  steps:
+  - intent: op_cheque_multi
+  - action: utter_op_cheque_multi
+
+- story: op_cheque_cancel
+  steps:
+  - intent: op_cheque_cancel
+  - action: utter_op_cheque_cancel
+
+- story: op_cheque_validity
+  steps:
+  - intent: op_cheque_validity
+  - action: utter_op_cheque_validity
+
+- story: op_cheque_validate
+  steps:
+  - intent: op_cheque_validate
+  - action: utter_op_cheque_validate
+
+- story: op_cheque_draft
+  steps:
+  - intent: op_cheque_draft
+  - action: utter_op_cheque_draft
+
+
+- story: op_saving_who
+  steps:
+  - intent: op_saving_who
+  - action: utter_op_saving_who
+
+- story: op_saving_how
+  steps:
+  - intent: op_saving_how
+  - action: utter_op_saving_how
+
+- story: op_saving_what
+  steps:
+  - intent: op_saving_what
+  - action: utter_op_saving_what
+
+- story: op_saving_interest_rate
+  steps:
+  - intent: op_saving_interest_rate
+  - action: utter_op_saving_interest_rate
+
+- story: op_saving_calculate
+  steps:
+  - intent: op_saving_calculate
+  - action: utter_op_saving_calculate
+
+- story: op_saving_problema
+  steps:
+  - intent: op_saving_problema
+  - action: utter_op_saving_problema
+
+- story: op_saving_change
+  steps:
+  - intent: op_saving_change
+  - action: utter_op_saving_change
+
+- story: op_saving_multi
+  steps:
+  - intent: op_saving_multi
+  - action: utter_op_saving_multi
+
+- story: op_saving_cost
+  steps:
+  - intent: op_saving_cost
+  - action: utter_op_saving_cost
+
+- story: op_saving_min
+  steps:
+  - intent: op_saving_min
+  - action: utter_op_saving_min
+
+
+- story: op_young_saver_mean
+  steps:
+  - intent: op_young_saver_mean
+  - action: utter_op_young_saver_mean
+
+- story: op_young_saver_what
+  steps:
+  - intent: op_young_saver_what
+  - action: utter_op_young_saver_what
+
+- story: op_young_saver_who
+  steps:
+  - intent: op_young_saver_who
+  - action: utter_op_young_saver_who
+
+- story: op_young_saver_interest_rate
+  steps:
+  - intent: op_young_saver_interest_rate
+  - action: utter_op_young_saver_interest_rate
+
+- story: op_young_saver_calculate
+  steps:
+  - intent: op_young_saver_calculate
+  - action: utter_op_young_saver_calculate
+
+- story: op_young_saver_document
+  steps:
+  - intent: op_young_saver_document
+  - action: utter_op_young_saver_document
+
+- story: op_young_saver_cost
+  steps:
+  - intent: op_young_saver_cost
+  - action: utter_op_young_saver_cost
+
+- story: op_young_saver_min
+  steps:
+  - intent: op_young_saver_min
+  - action: utter_op_young_saver_min
+
+- story: op_fixed_multi_option
+  steps:
+  - intent: op_fixed_multi_option
+  - action: utter_op_fixed_multi_option
+
+- story: op_young_saver_atm
+  steps:
+  - intent: op_young_saver_atm
+  - action: utter_op_young_saver_atm
+
+
+- story: op_empower_savings_what
+  steps:
+  - intent: op_empower_savings_what
+  - action: utter_op_empower_savings_what
+
+- story: op_empower_savings_doc
+  steps:
+  - intent: op_empower_savings_doc
+  - action: utter_op_empower_savings_doc
+
+- story: op_empower_savings_why
+  steps:
+  - intent: op_empower_savings_why
+  - action: utter_op_empower_savings_why
+
+- story: op_simple_recur_what
+  steps:
+  - intent: op_simple_recur_what
+  - action: utter_op_simple_recur_what
+
+- story: op_simple_recur_installment
+  steps:
+  - intent: op_simple_recur_installment
+  - action: utter_op_simple_recur_installment
+
+- story: op_simple_recur_doc
+  steps:
+  - intent: op_simple_recur_doc
+  - action: utter_op_simple_recur_doc
+
+- story: op_simple_recur_alternative
+  steps:
+  - intent: op_simple_recur_alternative
+  - action: utter_op_simple_recur_alternative
+
+- story: op_simple_recur_tenure
+  steps:
+  - intent: op_simple_recur_tenure
+  - action: utter_op_simple_recur_tenure
+
+- story: op_simple_recur_monthly_installment
+  steps:
+  - intent: op_simple_recur_monthly_installment
+  - action: utter_op_simple_recur_monthly_installment
+
+- story: op_simple_recur_premature
+  steps:
+  - intent: op_simple_recur_premature
+  - action: utter_op_simple_recur_premature
+
+- story: op_simple_recur_default
+  steps:
+  - intent: op_simple_recur_default
+  - action: utter_op_simple_recur_default
+
+- story: op_remittance_what_outward
+  steps:
+  - intent: op_remittance_what_outward
+  - action: utter_op_remittance_what_outward
+
+
+- story: op_remittance_how
+  steps:
+  - intent: op_remittance_how
+  - action: utter_op_remittance_how
+
+- story: op_remittance_limit_out
+  steps:
+  - intent: op_remittance_limit_out
+  - action: utter_op_remittance_limit_out
+
+- story: op_remittance_cost_out
+  steps:
+  - intent: op_remittance_cost_out
+  - action: utter_op_remittance_cost_out
+
+- story: op_remittance_exchangerate
+  steps:
+  - intent: op_remittance_exchangerate
+  - action: utter_op_remittance_exchangerate
+
+- story: op_remittance_credit_out
+  steps:
+  - intent: op_remittance_credit_out
+  - action: utter_op_remittance_credit_out
+
+- story: op_remittance_what_in
+  steps:
+  - intent: op_remittance_what_in
+  - action: utter_op_remittance_what_in
+
+- story: op_remittance_information
+  steps:
+  - intent: op_remittance_information
+  - action: utter_op_remittance_information
+
+- story: op_remittance_limit_in
+  steps:
+  - intent: op_remittance_limit_in
+  - action: utter_op_remittance_limit_in
+
+- story: op_remittance_cost_in
+  steps:
+  - intent: op_remittance_cost_in
+  - action: utter_op_remittance_cost_in
+
+- story: op_remittance_credit_in
+  steps:
+  - intent: op_remittance_credit_in
+  - action: utter_op_remittance_credit_in
+
+
+- story: op_remittance_personal
+  steps:
+  - intent: op_remittance_personal
+  - action: utter_op_remittance_personal
+
+- story: op_location
+  steps:
+  - intent: op_location
+  - action: utter_op_location
+
+- story: op_opening
+  steps:
+  - intent: op_opening
+  - action: utter_op_opening
+
+- story: op_history
+  steps:
+  - intent: op_history
+  - action: utter_op_history
+
+- story: op_md
+  steps:
+  - intent: op_md
+  - action: utter_op_md
+
+# ncgsf ***************************************************
+- story: ncgs_explain
+  steps:
+  - intent: ncgs_explain
+  - action: utter_ncgs_explain
+
+- story: ncgs_govt_guar
+  steps:
+  - intent: ncgs_govt_guar
+  - action: utter_govt_guar
+
+- story: ncgs_guar_period
+  steps:
+  - intent: ncgs_guar_period
+  - action: utter_guar_period
+
+- story: ncgs_debt_ratio
+  steps:
+  - intent: ncgs_debt_ratio
+  - action: utter_debt_ratio
+
+- story: ncgs_eli
+  steps:
+  - intent: ncgs_eli
+  - action: utter_ncgs_eli
+
+- story: ncgs_biz
+  steps:
+  - intent: ncgs_biz
+  - action: utter_ncgs_biz
+
+- story: ncgs_apply
+  steps:
+  - intent: ncgs_apply
+  - action: utter_ncgs_apply
+
+- story: ncgs_part
+  steps:
+  - intent: ncgs_part
+  - action: utter_ncgs_part
+
+- story: ncgs_rate
+  steps:
+  - intent: ncgs_rate
+  - action: utter_ncgs_rate
+
+- story: ncgs_same
+  steps:
+  - intent: ncgs_same
+  - action: utter_ncgs_same
+
+- story: ncgsf
+  steps:
+  - intent: ncgsf
+  - action: utter_ncgsf
+
+- story: ncgs_support
+  steps:
+  - intent: ncgs_support
+  - action: utter_ncgs_support
+
+- story: ncgs_contact
+  steps:
+  - intent: ncgs_contact
+  - action: utter_ncgs_contact
+
+# remit  ####################################################
+- story: remit
+  steps:
+  - intent: remit
+  - action: utter_remit
+
+- story: remit_acc
+  steps:
+  - intent: remit_acc
+  - action: utter_remit_acc
+
+- story: remit_channel
+  steps:
+  - intent: remit_channel
+  - action: utter_remit_channel
+
+- story: remit_open_acc
+  steps:
+  - intent: remit_open_acc
+  - action: utter_remit_open_acc
+
+- story: remit_access
+  steps:
+  - intent: remit_access
+  - action: utter_remit_access
+
+- story: remit_transfer
+  steps:
+  - intent: remit_transfer
+  - action: utter_remit_transfer
+
+- story: remit_withdrawal
+  steps:
+  - intent: remit_withdrawal
+  - action: utter_remit_withdrawal
+
+- story: remit_addition
+  steps:
+  - intent: remit_addition
+  - action: utter_remit_addition
+
+
