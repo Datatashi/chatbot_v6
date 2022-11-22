@@ -1,0 +1,1144 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - bot_challenge
+  - bob_help
+###########################################
+  - atmfacilities
+  - atmavail
+  - atmeligibility
+  - atmcharges
+  - atmreceive
+  - atmreplace
+  - atmwithdraw
+  - atm_lost
+  - atmfast
+# Cards---------------------------------------
+  - cards
+  - card_avail_service
+  - card_security
+  - card_avail
+  - card_choose
+  - card_fee
+  - card_amount
+  - card_wait_time
+  - card_debt
+  - card_abroad
+  - card_difference
+  - card_repayment
+  - card_withdraw
+  - card_charges
+  - card_min
+  - card_lose
+  - card_working
+  - card_debit_outside
+  - card_prepaid
+  - card_reload
+  - card_reload_charge
+  - card_balance_claim
+  - card_benefit
+  - card_bill
+  - card_domestic_region
+  - card_max_limit
+  - card_debit_charges
+  - domcard
+# mbob ----------------------
+  - mbob
+  - mbob_os
+  - mbob_min_os
+  - mbob_charges
+  - mbob_download
+  - mbob_space
+  - mbob_outside
+  - mbob_no_internet
+  - mbob_sim
+  - mbob_online
+  - mbob_pin
+  - mbob_start
+  - m_pin
+  - mbob_wrong_mpin
+  - mbob_unblock_mpin
+  - mbob_mpin_after_block
+  - mpin_forgotten
+  - mbob_tpin
+  - mbob_user
+  - mbob_dzongkha
+  - mbob_link
+  - mbob_joint
+  - mbob_link_joint
+  - mbob_minor
+  - mbob_minor_register
+  - mbob_fingerprint
+  - mbob_services
+  - mbob_details
+  - mbob_func_transfer
+  - mbob_transaction
+  - mbob_pay
+  - mbob_report_transaction
+  - mbob_protect
+  - mbob_stolen
+  - mbob_change
+  - mbob_external
+  - mbob_payment_merchant
+  - mbob_wrong_transfer
+  - mbob_wrong_beneficiary
+  - mbob_report_undue
+  - mbob_why_no_payment
+  - mbob_no_receive
+  - mbob_beneficiary_account_check
+  - mbob_complaint_fail_transfer
+  - mbob_interbank_reverse
+  - mbob_redo_iferror
+  - mbob_userid
+  - mbob_scan_pay
+  - mbob_qr
+  - mbob_interbank_payment
+  - mbob_otherbank_merchant
+  - mbob_qr_blank
+  - mbob_when_scan
+  - mbob_fix_recur
+  - mbob_deduct_recur
+  - mbob_close_term
+  - mbob_termdeposit_not_closed
+  - mbob_renewal_card
+  - mbob_replace_benefit
+  - mbob_donate
+  - mbob_statement
+  - mbob_max_statement
+  - mbob_email
+  - mbob_update_email
+  - mbob_cardless_atm
+  - mbob_cardless_problem
+  - mbob_cardless_withdrawal
+  - mbob_cardless_otherbank
+  - mbob_noaccount_atm
+  - mbob_delink
+  - mbob_los
+  - mbob_loan_account
+  - mbob_airticket
+  - mbob_features
+  - mbob_reward
+  - mbob_transfer_limit
+  - mbob_customer_categories
+  - mbob_thumb
+  - mbob_categories_limit
+  - mbob_categories_interbank
+  - mbob_thumb_online_register
+  - mbob_thumb_doc
+  - mbob_thumb_cardless
+  - mbob_thumb_mpin
+  - mbob_thumb_categories_limit
+  - mbob_thumb_categories
+  - mbob_premiums
+  - mbob_report_stops
+  - mbob_services_recharge
+  - mbob_alarts
+  - mbob_fake
+  - mbob_update
+  - mbob_over_cash
+  - mbob_safety_tips
+# gobob -------------------
+  - gobob_download
+  - gobob_register
+  - gobob_features
+  - gobob_benefit
+  - gobob_mbob
+  - gobob_customers
+  - gobob_cost
+  - gobob_security
+# operations -----------
+  - op_flex_recur_deposit
+  - op_flex_max
+  - op_flex_doc
+  - op_flex_alternative
+  - op_flex_amount
+  - op_flex_premature
+  - op_flex_installment
+  - op_flex_min
+  - op_flex_open
+  - op_flex_best
+  - op_fixed
+  - op_fixed_who
+  - op_fixed_freq
+  - op_fixed_tenure
+  - op_fixed_loan
+  - op_fixed_doc
+  - op_partial
+  - op_fixed_premature
+  - op_fixed_mature
+  - op_fixed_mbob
+  - op_cheque
+  - op_cheque_nobalance
+  - op_cheque_booklet
+  - op_cheque_cost
+  - op_cheque_personal
+  - op_cheque_multi
+  - op_cheque_cancel
+  - op_cheque_validity
+  - op_cheque_validate
+  - op_cheque_draft
+  - op_saving_who
+  - op_saving_how
+  - op_saving_what
+  - op_saving_interest_rate
+  - op_saving_calculate
+  - op_saving_problema
+  - op_saving_change
+  - op_saving_multi
+  - op_saving_cost
+  - op_saving_min
+  - op_young_saver_mean
+  - op_young_saver_what
+  - op_young_saver_who
+  - op_young_saver_interest_rate
+  - op_young_saver_calculate
+  - op_young_saver_document
+  - op_young_saver_cost
+  - op_young_saver_min
+  - op_fixed_multi_option
+  - op_young_saver_atm
+  - op_empower_savings_what
+  - op_empower_savings_doc
+  - op_empower_savings_why
+  - op_simple_recur_what
+  - op_simple_recur_installment
+  - op_simple_recur_doc
+  - op_simple_recur_alternative
+  - op_simple_recur_tenure
+  - op_simple_recur_monthly_installment
+  - op_simple_recur_premature
+  - op_simple_recur_default
+  - op_remittance_what_outward
+  - op_remittance_how
+  - op_remittance_limit_out
+  - op_remittance_cost_out
+  - op_remittance_exchangerate
+  - op_remittance_credit_out
+  - op_remittance_what_in
+  - op_remittance_information
+  - op_remittance_limit_in
+  - op_remittance_cost_in
+  - op_remittance_credit_in
+  - op_remittance_personal
+  - op_location
+  - op_opening
+  - op_history
+  - op_md
+# ncgsf --------------------------------------------
+
+  - ncgs_explain
+  - ncgs_govt_guar
+  - ncgs_guar_period
+  - ncgs_debt_ratio
+  - ncgs_eli
+  - ncgs_biz
+  - ncgs_apply
+  - ncgs_part
+  - ncgs_rate
+  - ncgs_same
+  - ncgsf
+  - ncgs_support
+  - ncgs_contact
+# remit ----------------------------------------
+  - remit
+  - remit_acc
+  - remit_channel
+  - remit_open_acc
+  - remit_access
+  - remit_transfer
+  - remit_withdrawal
+  - remit_addition
+
+
+
+
+
+
+responses:
+  utter_greet:
+  - text: "kuzuzangpola! How may I assist you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, created by the Bank of Bhutan."
+
+  utter_bob_help:
+  - text: "Sure, how can I help you today!"
+####################################################
+
+  utter_atmfacilities:
+  - text: "The facilities that will be offered through ATM as of now are:
+
+    \tCash Withdrawal\n\n
+    \tCardless withdrawal\n\n
+    \tFast Cash\n\n
+    \tMini statement\n\n
+    \tBalance Inquiry\n\n
+    \tPin Change\n\n
+    \tFunds Transfer (between own accounts of the customer)\n\n
+    \tCheque Book request\n\n
+    \tAccount Statement request"
+
+  utter_atmavail:
+  - text: "All the new accounts opened with the bank have the ATM facility request included in the account opening form. In case you wish to avail ATM Card, customers need to fill in Card Application Form along with the Account Opening Form."
+
+  utter_atmeligibility:
+  - text: " All the literate accounts (Signature Account) maintaining the minimum balance are eligible for the ATM facility."
+
+  utter_atmcharges:
+  - text: "For New customers – Nu.300,\n
+  Renewal Fee on Expiry of Validity – Nu.200,\n
+  Replacement – Nu.300, PIN Regeneration Fee – Nu.100.\n
+  Renewal/Replacement of ATM Card from mBoB is Nu.180."
+
+  utter_atmreceive:
+  - text: "The ATM card is to be collected from the branch that you have applied to or from the Branch at which you have opted to collect from (available in mBoB). The applicant has to personally visit the Branch to collect the Card as it is issued along with the Pin Code which otherwise imposes risk. In case the applicant is not able to come personally to collect the card from the branch, the applicant can send some other person with original authorization signed by him/her."
+
+  utter_atmreplace:
+  - text: "The ATM Card replacement can be done through mBoB or can be replaced by visiting the branch upon filling the Replacement Form. The replacement of cards through mBoB has mentioned below:
+
+    \tLogin to mBoB\n
+    \tCards/Loans\n
+    \tManage Cards\n
+    \tCard Replacement/Renewal\n
+    \tSelect Account Source\n
+    \tSelect Collection Branch (The branch you wish to collect the card)\n\n
+    \tSubmit"
+
+  utter_atmwithdraw:
+  - text: "You can withdraw cash up to Nu 40,000 in a day from ATM. The maximum amount per transaction is 15,000/- for BoB Card Holder and the limit for other Card user depends on their Issuer Bank’s limit."
+
+  utter_atm_lost:
+  - text: "If you lose your Card or suspect fraudulent activity, contact us immediately at 1095 (toll free) or log in CWM immediately and block the card yourself. You can also request for Card Replacement Online. ATM Cards can also be blocked through mBoB."
+
+  utter_atmfast:
+  - text: "Fast Cash menu is the first menu that appears on the ATM after validating your pin. It gives you the option to select the amount of cash withdrawal from the displayed amounts in order to expedite your transaction."
+
+# Cards ------------------------------------------------------------------------------------
+  utter_cards:
+  - text: "Credit Card (International Credit Card, Domestic Credit Card, Corporate Credit Card)"
+
+  utter_card_avail_service:
+  - text: "Generally, All Bhutanese having Citizenship Identity Card and age group between 18 to 70 years are eligible. Additional requirements may apply depending on the type of card. "
+
+  utter_card_security:
+  - text: "Yes. The Bank of Bhutan-issued Visa and MasterCard are secured by EMV chip technology and 3D security. The EMV Chip technology is the latest technology against card I need help.\n
+     - Please can you help me.\n
+     - I have a question.\n
+     - I ve a question.skimming fraud and the 3D security technology protects against online fraud. "
+
+  utter_card_avail:
+  - text: "You must have Saving Accounts maintained with BoB. The debit card application form can be downloaded from https://www.bob.bt/wp-content/uploads/2022/06/Visa-Debit-Card-Application-Form-June-27-2022.pdf	. All documentation requirements are highlighted on page 3 of this form."
+
+  utter_card_choose:
+  - text: "There are three different types of credit cards available so it can be hard to know where to start when deciding which one is right for you. One of the easiest ways to look at it is to consider exactly what you need a credit card for. Please call 1095 or contact us at card_team@bob.br to find out which card suits you best. "
+
+  utter_card_fee:
+  - text: "Yes. Yes, the bank charges a joining fee of Nu. 500.00 per credit card."
+
+  utter_card_amount:
+  - text: "The amount you can borrow with a credit card will depend on your credit limit which is determined according to your repayment capacity with a maximum limit of Nu 150,000/- for domestic credit cards, Nu. equivalent of 4,000 USD for international credit cards and Nu equivalent of the dollar limit approved by RMA for Corporate credit cards.\n
+   The Bank allocates limits based on factors such as your credit score (more on this later), how much available income you have after meeting your regular financial commitments, and whether you have other types of credit, such as a mortgage, loan, or overdraft."
+
+  utter_card_wait_time:
+  - text: "Once you’ve been approved for a credit card, it should be ready within 10 working days. You will need to activate the card once you have received it by calling our Troll Free No. 1095."
+
+  utter_card_debt:
+  - text: "Yes. Unlike with personal loans, there are no penalties if you want to clear your balance early before the due date.
+ "
+
+  utter_card_abroad:
+  - text: "Yes, you can, but you will charge a foreign transaction fee of 1.5% every time you spend. You’ll also be charged separately for cash withdrawals and interest is calculated from the time of withdrawal."
+
+  utter_card_difference:
+  - text: "A credit card allows you to borrow money (up to your sanctioned limit) that you repay at a later date, including applicable interest and charges. In comparison, a prepaid card requires you to load up the card with cash in advance and you can then only spend what’s on the card."
+
+  utter_card_repayment:
+  - text: "If you are late or miss a payment altogether, you’ll be charged a fee and the late or missed payment will be noted on your credit report, which could affect your ability to get credit in the future."
+
+  utter_card_withdraw:
+  - text: "Yes – A cash advance fee of 2.5% will be charged for cash withdrawals using credit cards. Additionally, you will be charged interest from the moment you get your money – even if you pay off your balance in full that month. Try to avoid withdrawing cash on a credit card unless it’s an emergency."
+
+  utter_card_charges:
+  - text: "Yes, you will be charged BTN 999.00 annually."
+
+  utter_card_min:
+  - text: "The minimum amount you must repay each month is 25% of your total amount due. While you will be charged interest on the paid amount, your credit score would not be affected."
+
+  utter_card_lose:
+  - text: "If you lose your credit card, please call 1095 and report it as stolen or lost. Your card will then be deactivated, and a replacement card will be ordered. If you are unable to reach us, please email us at card_team@bob.bt. We recommend you call us as your email will be attended to during working hours which is 9:00 AM -5:00 PM on weekdays only."
+
+  utter_card_working:
+  - text: "If you are unable to transact on your card, you may call our Customer Care at 1095 between 8:00 a.m. and 11:00 PM"
+
+  utter_card_debit_outside:
+  - text: "Yes, the Domestic Debit Card is valid in Bhutan, India & Nepal. International Debit Card is Valid Outside Bhutan, India & Nepal.
+ Benefits of INR Prepaid Card\n
+     1. No transaction Fees\n
+     2. Accepted in MasterCard enabled ATM and POS Terminals\n
+     3. Manage Card online\n
+     4. Create your own Green PIN\n
+     5. Instant email alert service for every transaction"
+
+  utter_card_prepaid:
+  - text: "Currently, the maximum limit on our INR prepaid card is BTN 50,000/- per month and the card is valid for 2 years."
+
+  utter_card_reload:
+  - text: "You can reload your INR prepaid card using mBoB or by visiting our nearest branch office. Reloading from mBoB is instant, and we recommend that you do so if you need to use your Prepaid Card right away."
+
+  utter_card_reload_charge:
+  - text: "Yes. You will be charged BTN 150/- for every reload you made."
+
+  utter_card_balance_claim:
+  - text: "Please visit our nearest branch office and submit the refund form. Your entire available balance or any amount specified in the form will be refunded back to your savings account. A fee of BTN 150/- will be charged for every refund requested.  The refund form is also available via this link https://www.bob.bt/wp-content/uploads/2021/10/Prepaid-Card-Cancellation-Refund-Form-October-2021.pdf."
+
+  utter_card_benefit:
+  - text: "1. Buy now, pay later, up to 45 days free of interest on the purchase.\n
+     2. Create your own Green PIN\n
+     3. Flexible repayment with a minimum amount of 25% of the monthly outstanding balance\n
+     4. Easy Internet shopping and merchant’s payments\n
+     5. Secured Credit Card eStatement service\n
+     6. Instant email alert service for every transaction"
+
+  utter_card_bill:
+  - text: "There are four easy ways to pay for your Credit Card\n
+     1. mBoB\n
+     2. Cash Payment at BoB Branches nationwide\n
+     3. Internet banking\n
+     4. Auto Debit"
+
+  utter_card_domestic_region:
+  - text: "The Visa Domestic Credit Card can be used to make payments at merchant POS outlets, ATM withdrawals, and online purchases in Bhutan, India, and Nepal only."
+
+  utter_card_max_limit:
+  - text: "Your Domestic credit card can have a maximum limit of Nu. 150,000/- and the Card is valid of 3 Years."
+
+  utter_card_debit_charges:
+  - text: "You can visit [BoB website](https://www.bob.bt/personal-banking/card/domestic-debit-card/)"
+
+  utter_domcard:
+  - text: "Please visit [DOMESTIC CREDIT CARD] (https://www.bob.bt/personal-banking/card/domestic-credit-card/) for more information"
+
+# mbob -------------------------------------------------------
+  utter_mbob:
+  - text: "mBoB is simple and convenient application to access your bank account on your phone. mBoB is now available on all mobile phones, ranging from character-based mobile phones to the latest smart phones."
+
+
+  utter_mbob_os:
+  - text: "mBoB is available in major operating systems like Android and iOS."
+
+  utter_mbob_min_os:
+  - text: "You can use any mobile device ranging from the simple character-based to the latest smart phones. The mBoB App is supported on andriod version 5 and above and iphone version 11 and above."
+
+  utter_mbob_charges:
+  - text: "Registration is free & there are NO charges for other services as well. However, BoB may choose to apply minimal charges on some services at a later date after notifying the charges in our website www.bob.bt."
+
+  utter_mbob_download:
+  - text: "Always download from authorized stores like Playstore & Appstore respectively. Just type mBoB and search to download and install."
+
+  utter_mbob_space:
+  - text: ""
+
+  utter_mbob_outside:
+  - text: "Yes, from anywhere around the world as long as there is an internet connection."
+
+  utter_forms:
+  - text: "You can download and submit form to open an account with any branch office. Click [DOWNLOAD FORMS](https://www.bob.bt/service-and-support/download-forms/)"
+
+  utter_mbob_no_internet:
+  - text: "Dial *262# from your registered mobile number to avail the service. But this mode of service is available for use within Bhutan only."
+
+  utter_mbob_sim:
+  - text: "As long as you are using the SIM for either Bhutan Telecom or Tcell or as long as you have internet connection in your phone."
+
+  utter_mbob_online:
+  - text: "if your mobile number or email ID is updated in BoB, you can register through mBoB app instantly from anywhere by submitting your Account number, CID number and agreeing to the terms and conditions. You can also visit your prefererd BoB branch office to register for the Service."
+
+  utter_mbob_start:
+  - text: "You will be provided with a user ID and a default password (M-Pin) after registration. The default M-Pin will need to be changed while also need to set up a new T-Pin of your own. On completion, you can start using the service."
+
+  utter_mbob_pin:
+  - text: "M-pin and T-Pin can be any four digit number of your choice. M-Pin is to login to mBoB app while T-Pin is to authentiate and authorize the transaction. You can reset the M-pin and T-pin by pressing forgot my M-pin on mBoB app"
+
+
+  utter_m_pin:
+  - text: "Yes, there is a feature available in mBoB where you can change your M-Pin/T-Pin as and when required at your convenience, the same is available as a post login feature."
+
+  utter_mbob_wrong_mpin:
+  - text: "For security reasons, further access is blocked if M-Pin is used wrongly for three consecutive times."
+
+  utter_mbob_unblock_mpin:
+  - text: "can call 1095 or visit the nearest Branch office for assistance. New M-Pin will have to be reset."
+
+  utter_mbob_mpin_after_block:
+  - text: "security reason, M-Pin will have to reset and same is delivered via registered mobile number/email address after completing the due verification process."
+
+  utter_mpin_forgotten:
+  - text: "Use 'Forgot M-Pin' option available on the login page to reset. OTP will be delivered to registered mobile and email address with the bank."
+
+  utter_mbob_tpin:
+  - text: "login to mBoB app and check for the 'Forgot T-Pin' option available under navigation bar of mBoB home page."
+
+  utter_mbob_user:
+  - text: "You can reset the User ID by pressing Forgot User ID on mBoB app."
+
+
+  utter_mbob_dzongkha:
+  - text: "mBoB app can be accessed in both English & Dzongkha languages."
+
+  utter_mbob_link:
+  - text: "Any types of accounts can be linked in mBoB including pension account and foreign currency account."
+
+  utter_mbob_joint:
+  - text: "Yes, but joint account can be linked to only one mBoB USER with no fund transfer rights."
+
+  utter_mbob_link_joint:
+  - text: "All the signatories to the account are required to visit the branch & submit the account linking form in which their signatures have to be duly attested."
+
+  utter_mbob_minor:
+  - text: "If a minor is above 15 years and have a CID copy, minor can independently operate mBoB based on the written consent from parent/guardian and submitting it to the Branch. If the minor is below 15 years, such account can be linked to parent/guardian with full transaction rights."
+
+  utter_mbob_minor_register:
+  - text: "Yes, but to avail fund transfer rights for a minor account above 15 years, written application should be submitted to the Branch."
+
+  utter_mbob_fingerprint:
+  - text: "Yes, you have to add thumbprint record through your phone settings and need to enable fingerprint login from mBoB app. However, your phone has to support fingerprint to use it as login option."
+
+  utter_mbob_services:
+  - text: "The various services are available, ranging from balance enquiry to account statement, account opening to account closing, recharge services to bill payments, intrabank to interbank fund transfers, scan & pay to remittances, rewards to loan repayments and many more."
+
+  utter_mbob_details:
+  - text: "No, for safety reasons, details are not stored on the mobile device."
+
+  utter_mbob_func_transfer:
+  - text: "You can carry out the following types of Funds transfers:\n
+  
+Transfer to your own accounts in BoB\n
+Transfer to third party accounts in BoB\n
+Transfer to other banks' account in Bhutan"
+
+  utter_mbob_transaction:
+  - text: "No, transaction once initiated and duly completed cannot be canceled or changed."
+
+  utter_mbob_pay:
+  - text: "Yes, you can pay bills for Bhutan Telecom, Tcell, Bhutan Power Corporation, NPPF, Credit Card Bills and many more."
+
+  utter_mbob_report_transaction:
+  - text: "Contact your prefererd BoB branch or call 1095 for assistance."
+
+  utter_mbob_protect:
+  - text: "Perhaps, your entire life savings is right on your phone. Always password protect your phone and never leave them unattended. With tremendous opportunities and possibilities, mobile phones are not free from cyber attacks and physical theft."
+
+  utter_mbob_stolen:
+  - text: "Immediately report the loss of your mobile to your nearest BoB branch or call our contact centre at 1095 with a request to temporarily block the mBoB service."
+
+  utter_mbob_change:
+  - text: "Absolutely no problem - Howver, ensure that your new mobile number is registered & updated with BoB. If you have changed your mobile device, you can continue using the same USER ID, M-Pin and T-Pin from different phone."
+
+  utter_mbob_external:
+  - text: "can access from different phone but only upon validation of OTP, delivered to your registered mobile and email address."
+
+  utter_mbob_payment_merchant:
+  - text: "Scan & Pay is the most popular mode of payment to merchants. It is secure and saves time and reduces error of wrong transfer."
+
+  utter_mbob_wrong_transfer:
+  - text: "ys confirm the beneficiary name and transaction amount in T-Pin page before authorizing the transaction with T-Pin."
+
+  utter_mbob_wrong_beneficiary:
+  - text: "Bank doesn't guarantee the return of the money once transaction is duly completed. The transaction has to be mutually settled between the sender and the receiver."
+
+  utter_mbob_report_undue:
+  - text: "You cannot claim the rights over the wrong amount received into your account. It is morally wrong & as a responsible person, always report to 1095 or visit preferred branch for enquiry and return."
+
+  utter_mbob_why_no_payment:
+  - text: "possible reasons could be that either you have entered invalid beneficiary account number or provided wrong but valid account or could also be due to system related issue."
+
+  utter_mbob_no_receive:
+  - text: "If the account number/bank is correctly provided/selected, such transactions will anyway be received by the beneficiary within one day."
+
+  utter_mbob_beneficiary_account_check:
+  - text: "You can always check your account statement in which the beneficiary account number will be reflected as a narration."
+
+  utter_mbob_complaint_fail_transfer:
+  - text: "Not required, based on the report, such failed transaction will be credited to the beneficiary account within one day. If amount is not received still, you may enquire with beneficiary bank."
+
+  utter_mbob_interbank_reverse:
+  - text: "The interbank transaction will be reversed only when the account you transferred to is invalid, dormant, freezed, in closed status or not permitted by the beneficiary bank."
+
+  utter_mbob_redo_iferror:
+  - text: "Always check mini statement or account balance to confirm the debit before re-initiating the transaction."
+
+  utter_mbob_userid:
+  - text: "Use 'Forgot USER ID' option available on the mBoB login page to retrieve your user ID."
+
+  utter_mbob_scan_pay:
+  - text: "There is no risk of wrong transfer and you will receive SMS alert for the transaction irrespective of the amount."
+
+  utter_mbob_qr:
+  - text: "Not really. You can generate QR code directly through App which is available on the account balance display screen and by clicking on the 'Generate QR' option."
+
+  utter_mbob_interbank_payment:
+  - text: "Yes, will suppot both intra and inter-bank transaction to accept payments."
+
+  utter_mbob_otherbank_merchant:
+  - text: "amount once debited at BoB will never be reversed, such amount if not credited instantly, will be force-credited to merchant's account by respective merchants' bank within a day. Do not re-initiate the payment once debited."
+
+  utter_mbob_qr_blank:
+  - text: "check your mBoB App permission settings and esnure that mBoB App is permitted to access phone camera."
+
+  utter_mbob_when_scan:
+  - text: "As far as possible, you are recommended to use merchant's BoB QR code to pay so that transaction will be seamless & faster. This will be convenient both to the merchant and customer."
+
+  utter_mbob_fix_recur:
+  - text: "you can open recurring and fixed deposit account instantly from mBoB app without having to visit the branches."
+
+  utter_mbob_deduct_recur:
+  - text: "you can open recurring and fixed deposit account instantly from mBoB app without having to visit the branches."
+
+  utter_mbob_close_term:
+  - text: " It is possible. You can instantly close and transfer to your account."
+
+  utter_mbob_termdeposit_not_closed:
+  - text: "If your account is opened before 1st Apri 2016, you have to visit branch to request for closure of such account."
+  utter_mbob_renewal_card:
+  - text: "Yes, you can apply and submit your request."
+
+  utter_mbob_replace_benefit:
+  - text: "If applying from mBoB, the process is simple, convenient, faster and available at a reduced replacement fee."
+
+  utter_mbob_donate:
+  - text: "Covid-19 icon on the app to donate. The process is simple & doesn't require to provide account number manually."
+
+  utter_mbob_statement:
+  - text: "Yes, you can request and get access to your statement instantly. It will be delivered to your registered email with the bank."
+
+  utter_mbob_max_statement:
+  - text: "You, can request statement for the maximum period of three months at an instance for savings, current and overdraft accounts while statement request for loan & recurring deposit account is for the maximum period of one year."
+
+  utter_mbob_email:
+  - text: "When requesting the statement, you will be prompted a message on the app if your email address is not updated with the bank."
+
+  utter_mbob_update_email:
+  - text: "visit your nearest branch and submit completed 'CIF' form or 'mBoB change request' form to update your email address."
+
+  utter_mbob_cardless_atm:
+  - text: "You can use cardless withdrawal service without even having the ATM card from the bank."
+
+  utter_mbob_cardless_problem:
+  - text: "Call 1095 or visit nearest branch to check if your account has been activated for cardless facility. Sometimes, the problem can also be with ATM terminals."
+
+  utter_mbob_cardless_withdrawal:
+  - text: "You can withdraw the maximum of Nu. 15,000 per transaction & Nu. 40,000 per day from ATM and Nu. 10,000 per day from BoBConnect Agents."
+
+  utter_mbob_cardless_otherbank:
+  - text: "Cardless withdrawal service can be availed only from BoB ATM terminal."
+
+  utter_mbob_noaccount_atm:
+  - text: "Yes. On the cardless withdrawal facility in mBoB, select 'Send OTP to different number' option. The person can use OTP to withdraw cash from BoB ATM."
+
+  utter_mbob_delink:
+  - text: "'Manage Account' option available under homepage dashboard to add or delink accounts from mBoB."
+
+  utter_mbob_los:
+  - text: "Yes, but your loan account has to be linked in mBoB."
+
+  utter_mbob_loan_account:
+  - text: "Yes, but your loan account has to be linked in mBoB."
+
+  utter_mbob_airticket:
+  - text: "Yes, you can pay for your Drukair ticket through 'Flight' feature available on the app."
+
+  utter_mbob_features:
+  - text: "Always check for the latest updates in the playstore/Appstore. Also, you can check our official social media pages and also through banners uploaded on mBoB app."
+
+  utter_mbob_reward:
+  - text: "We tend to positively impact the way our customers bank by using mobile banking application. Through reward feature, you can refer mBoB to your circle of friends and families. If they successfully register for mBoB using your referral code, you will get a reward of Nu. 10 for being the agent of change and in contributing to the promotion of cash-less transaction."
+
+  utter_mbob_transfer_limit:
+  - text: "The inter-bank fund transfer limit is the total of Nu. 1,000,000 per day as per Royal Monetary Authority."
+
+  utter_mbob_customer_categories:
+  - text: "The categories of customers are General, Silver, Gold & Thumbprint customers."
+
+  utter_mbob_thumb:
+  - text: "They are customer who has opened account by providing their thumb-print record (not signature)."
+
+  utter_mbob_categories_limit:
+  - text: "Customer in General category can transfer upto Nu. 100,000 in a day, upto Nu. 500,000 per day for Silver category, unlimited transfer for Gold category and Nu. 5,000 only for Thumbprint customers."
+
+  utter_mbob_categories_interbank:
+  - text: "No, these categories are only for fund transfers within BoB account. Interbank limit is set by Royal Monetary Authority. However, for thumbprint customers, the limit is inclusive of inter-bank transactions."
+
+  utter_mbob_thumb_online_register:
+  - text: "No, customer need to personally visit the Branch along with witness."
+
+  utter_mbob_thumb_doc:
+  - text: "Along with the registration form, the documents required are citizenship ID and a legal stamp."
+
+  utter_mbob_thumb_cardless:
+  - text: "No, cardless withdrawal service is not provided."
+
+  utter_mbob_thumb_mpin:
+  - text: "As a security measure, the reset rights directly through App are not provided."
+
+  utter_mbob_thumb_categories_limit:
+  - text: "The category cannot be changed."
+
+  utter_mbob_thumb_categories:
+  - text: "The category cannot be changed."
+
+  utter_mbob_premiums:
+  - text: "You can pay premuims for life and annuity products including loan repayments for RICBL."
+
+  utter_mbob_report_stops:
+  - text: "Always try the following: Turn off and re-enable the mobile internet/restart your phone/update to the latest version of App/switch to mobile data if using wifi/re-install the App. If the issue persist, report to 1095/Branch for further assistance."
+
+  utter_mbob_services_recharge:
+  - text: "Mobile number is your critical information with the bank. Always update if the previously registered number with the bank has been changed. Subscribe for SMS and mBoB facility so that you receive immediate alert for any unauthorized transactions."
+
+  utter_mbob_alarts:
+  - text: "Mobile number is your critical information with the bank. Always update if the previously registered number with the bank has been changed. Subscribe for SMS and mBoB facility so that you receive immediate alert for any unauthorized transactions."
+
+  utter_mbob_fake:
+  - text: "Never believe on payment screenshots but always confirm the receipt through SMS, mini statement or balance enquiry through mBoB app."
+
+  utter_mbob_update:
+  - text: "In most of the cases, update is required when there are new services added while some updates are due to critical patch/security enhancement/a bug fix or due to an improvement in the services."
+
+  utter_mbob_over_cash:
+  - text: "mBoB is fast and convenient while the transactions are traceable & recorded in the system along with amount, date and time of transaction and other details."
+
+  utter_mbob_safety_tips:
+  - text: "Always keep your USER ID, M-Pin and T-Pin secret to yourself. Never share OTPs to anyone.  Periodically change the credentails. Do not save the credentails in the phone. Do not be carried away by the false promises. Password protecting the phone can be added layer of security as well."
+
+# gobob ---------------------------------------------------------------------
+  utter_gobob_download:
+  - text: "goBoB is a virtual wallet powered by Bank of Bhutan Limited through which a user can store his or her money for future online/offline transactions such as making utility bill payments and merchant payments. Its main objective is to achieve greater financial inclusion, promote cashless transactions and to bring every citizen into the financial ecosystem."
+
+  utter_gobob_register:
+  - text: "Always download goBoB app from authorized stores like PlayStore & AppStore. Just type “goBoB” and search to download and install."
+
+  utter_gobob_features:
+  - text: "With the goBoB, you can do the followings:
+
+    \tPass Book – Balance Enquiry\n  
+    \tGenerate Statement\n
+    \tAdd Money from Bank\n
+    \tAdd Money from Cards\n
+    \tSend Money to any BoB Accounts\n
+    \tPay Money through your Contacts\n
+    \tPay Money via Beneficiary\n
+    \tRequest and Send Money\n
+    \tMake QR payment to any Bank’s merchants\n
+    \tTop up your BT numbers\n
+    \tSplit Bills\n
+    \tRefer goBoB to your friend and get rewards"
+
+  utter_gobob_benefit:
+  - text: "You do not need to have Bank accounts;\n
+    Enjoy the convenience of Merchant payment without carrying your wallet;\n
+    Get instant in-app notification for any amount and transactions."
+
+  utter_gobob_mbob:
+  - text: "1. Simple and Instant Registration:\n
+1. In goBoB, customer can register with valid mobile no. You do not need to have Bank account. Whereas, customer should have a saving account to register for mBoB\n
+2. Target customer:\n
+Can facilitate seamless payment system (merchant payment) to Tourist whereas Tourist can not register for mBoB.\n
+3. Key Features:\n
+Key features of goBoB is Splitting of Bills and Request & Send money whereas mBoB focuses more on Account related features.\n
+4. Age Eligibility:\n
+Minors with a age ranging from 10-17 can register for goBoB and do basic minimal transactions whereas guardian have to undertake to enable transaction for minors in mBoB.\n
+5. Wider coverage:\n
+Besides facilitating the service to mBoB users/BoB account holders, goBoB can cover non-BoB account holders besides covering the unbanked portion of the Nation."
+
+  utter_gobob_customers:
+  - text: "You can download the goBoB application and can register instantly. However, you can also visit nearest BoB branch offices to register for the service."
+
+  utter_gobob_cost:
+  - text: "Registration is free. There are no charges for other services except for adding money from cards and transfer to bank accounts. A convenience fee of 3.5% will be charged while loading your wallet using cards and 2% will be charged while sending money to your bank accounts."
+
+  utter_gobob_security:
+  - text: "goBoB is very secure service. In fact, mobile wallets are much safer than carrying around your wallet. goBoB has multiple security such as fingerprint or M-Pin to login and T-Pin to authorize any transactions."
+
+# operations ------------------------------------------------
+  utter_op_flex_recur_deposit:
+  - text: "It is a type of Recurring deposit where customers will have greater flexibility with their savings. You can choose to deposit a minimum of Nu.100 per month and can increase this amount anytime you wish. If you have more spare money to save, you can deposit funds multiple times in a month or either choose not to make any deposits in a month."
+
+
+  utter_op_flex_max:
+  - text: "You can choose to deposit Nu.20,000/- per installment or maximum of Nu.20,000/ in a month."
+
+  utter_op_flex_doc:
+  - text: "Please click [the required documents](https://www.bob.bt/personal-banking/save-deposits/flexi-recurring-deposit/) to know"
+
+  utter_op_flex_alternative:
+  - text: "Yes, you can open via using mBoB and internet banking. Call our toll free contact center at 1095 in case for guidance."
+
+  utter_op_flex_amount:
+  - text: "No, however, you can choose to open two Flexi RD of Nu.20, 000 installments each."
+
+  utter_op_flex_premature:
+  - text: "Yes but you will be given 1% less of interest than actual interest of the year."
+
+  utter_op_flex_installment:
+  - text: "No, minimum installment is Nu.100/-"
+
+  utter_op_flex_min:
+  - text: "No, minimum tenure one can open is 1 year"
+
+  utter_op_flex_open:
+  - text: "It will take not more than 10 minutes."
+
+  utter_op_flex_best:
+  - text: "It is the best way to save considering the convenient it has."
+
+  utter_op_fixed:
+  - text: "Kind of saving with a known rate of return for your choice of term, so you know exactly what your investment will be worth"
+
+  utter_op_fixed_who:
+  - text: "Please click [open FD](https://www.bob.bt/personal-banking/save-deposits/fixed-deposits-account/);"
+
+  utter_op_fixed_freq:
+  - text: "The interest payout frequency can be either monthly, quarterly, half-yearly, yearly or on maturity."
+
+  utter_op_fixed_tenure:
+  - text: "10 years"
+
+  utter_op_fixed_loan:
+  - text: "Yes but in the form of OD subject to 90%"
+
+  utter_op_fixed_doc:
+  - text: "Please click [the documents required](https://www.bob.bt/personal-banking/save-deposits/fixed-deposits-account/)"
+
+  utter_op_partial:
+  - text: "If a customer wants to premature his fixed deposit, the entire fixed deposit need not be broken and he can premature only the amount he requires."
+
+  utter_op_fixed_premature:
+  - text: "Fixed deposits can be broken before the maturity date. The interest rate will be 1 % less than the applicable rate of interest the FD has been kept with the Bank. However, if the FD is closed before 91 days the customer will not be eligible for interest."
+
+  utter_op_fixed_mature:
+  - text: "No, it will automatically be credited the balance proceed to the saving account."
+
+  utter_op_fixed_mbob:
+  - text: "Yes, you can open using mBoB and internet banking."
+
+  utter_op_cheque:
+  - text: "You can visit any of the nearest branches and avail the cheque."
+
+  utter_op_cheque_nobalance:
+  - text: "This is a crime and it will be legally dealt. For the bounce cheque, Nu.300 plus 10% of the cheque amount will be deducted as penalties."
+
+  utter_op_cheque_booklet:
+  - text: "You have to submit the cheque requisition leaflet to the branch and get it issued new booklet."
+
+  utter_op_cheque_cost:
+  - text: "Yes, but for the first issue it is free and the actual cost will be charged for the subsequent issue."
+
+  utter_op_cheque_personal:
+  - text: "Yes, you can and the actual cost will be deducted."
+
+  utter_op_cheque_multi:
+  - text: "Yes, you can avail as many booklets at one time but the cheque leaves must be used until its exhausted."
+
+  utter_op_cheque_cancel:
+  - text: "Only the applicant can cancel the bankers cheque with two signature on the bank of the cheque."
+
+  utter_op_cheque_validity:
+  - text: "It is 6 months"
+
+  utter_op_cheque_validate:
+  - text: "You can revalidate from any of our branch and charge of Nu.100 is levied."
+
+  utter_op_cheque_draft:
+  - text: "Yes, its called multicity cheque/draft on all the branches of State Bank of India."
+
+  utter_op_saving_who:
+  - text: "Savings Deposit Account can be opened by:
+
+Individual, either or survivor, jointly with other individuals, any one or survivor.
+
+Accounts may also be opened for or on behalf of minors under guardianship of nature/court appointed guardian. Parent may also open a joint account with their minor child/children.
+
+Empower saving can be opened only by Individual, either or survivor.
+
+No saving deposit will normally be opened in the name of association/clubs/societies and nonprofit institution. However, only in exceptional cases taking into consideration the nature of deposits, the branch may open upon prior approval from Head Office.
+
+Business organization and government will be permitted to open only staff security deposit and staff welfare account upon approval from Head Office."
+
+  utter_op_saving_how:
+  - text: "To open the saving account the customer must visit the branch personally."
+
+  utter_op_saving_what:
+  - text: "The following facilities are available under saving deposit account:
+    1. SMS alert to primary applicant no
+    2. Internet Banking
+    3. ATM or Domestic Debit Card
+    4. ATM or International Credit Card
+    5. B-Wallet
+    6. Tele banking
+    7. mBoB
+    8. goBoB"
+
+  utter_op_saving_interest_rate:
+  - text: "The prevailing rate of interest on Savings Deposit Account is 4.50% per annum."
+
+  utter_op_saving_calculate:
+  - text: "The interest is paid on monthly basis on simple daily product method with no upper limit on account balance."
+
+
+  utter_op_saving_problema:
+  - text: "Any individual/organization listed under the UN sanctioned list cannot open any type of accounts."
+
+  utter_op_saving_change:
+  - text: "Yes, the interest rate change."
+
+  utter_op_saving_multi:
+  - text: "Yes, one can have multiple account under one CIF."
+
+  utter_op_saving_cost:
+  - text: "Bank recover the charge bi annually Nu.75/- as maintenance fee."
+
+  utter_op_saving_min:
+  - text: "A minimum balance of Nu.500/- to be deposited at time of opening, subsequently balance may be permitted to reduce below Nu 500/-"
+
+  utter_op_young_saver_mean:
+  - text: "Young savers account is opened by minor below the age of 18."
+
+  utter_op_young_saver_what:
+  - text: "1. Service charges are not applicable
+2. Proprietary Card for 15 years and above
+3. Free passbook even for replacement or loss of passbook
+4. FD-Multi option Deposit (MOD)
+5. mBoB"
+
+  utter_op_young_saver_who:
+  - text: "The account will be operated by parents/court appointed guardians."
+
+  utter_op_young_saver_interest_rate:
+  - text: "The prevailing rate of interest on Young Saver Deposit Account is 4.50% per annum."
+
+  utter_op_young_saver_calculate:
+  - text: "The interest is paid on monthly basis on simple daily product method with no upper limit on account balance."
+
+  utter_op_young_saver_document:
+  - text: "
+    1. Citizenship Identity Card Photocopy (parents/Guardian)
+    2. A copy of Health card of the minor
+    3. Two Passport sized photographs of parents/guardian
+    4. Legal stamp
+    5.  Guardian’s declaration form to be filled which is available at the BoBL branch offices."
+
+  utter_op_young_saver_cost:
+  - text: "Service charge are not applicable for maintaining account."
+
+  utter_op_young_saver_min:
+  - text: "A minimum balance of Nu.500/- to be deposited at time of opening, subsequently balance may be permitted to reduce below Nu 500/-"
+
+  utter_op_fixed_multi_option:
+  - text: "FD multi-option deposit is a deposit where the system will open the fixed deposit when the balance reached Nu.100,000 keeping the threshold balance of Nu.10,000."
+
+  utter_op_young_saver_atm:
+  - text: "Young saver account holder can avail Proprietary Card for 15 years and above."
+
+  utter_op_empower_savings_what:
+  - text: "Empower Saving is to onboard the customers into the digital platform through the usage of delivery channel services (mBoB and Internet Banking). Thus, the debit transaction over the bank counter will be charged a minimal fee of Nu.150 per transaction (both cash withdrawal & Transfer transaction)."
+
+  utter_op_empower_savings_doc:
+  - text: "Please click [the required documents](https://www.bob.bt/personal-banking/save-deposits/empower-savings-account/)"
+
+  utter_op_empower_savings_why:
+  - text: " • The rate of interest on Empower Savings Deposit Account is 0.25% per annum higher than the normal Savings account, calculated on daily product basis.
+    • Exempted from charging annual maintenance fee. 
+    • Exempted from charging ATM debit card processing fee."
+
+  utter_op_simple_recur_what:
+  - text: "It is a type of Recurring deposit where customers can save monthly by paying a fixed sum of money every month for a predetermined period. You can have multiple Simple Recurring Deposit account in your name or in joint names with other. "
+
+  utter_op_simple_recur_installment:
+  - text: "Minimum monthly installment is Nu. 100/- and there is no upper limit."
+
+  utter_op_simple_recur_doc:
+  - text: "Please click [the required documents](https://www.bob.bt/personal-banking/save-deposits/simple-recurring-deposit/)"
+
+  utter_op_simple_recur_alternative:
+  - text: "Yes, you can open via using mBoB and internet banking. Call our toll free contact center at 1095 in case for guidance."
+
+  utter_op_simple_recur_tenure:
+  - text: "Minimum tenure is 1 year and maximum is 20 years"
+
+  utter_op_simple_recur_monthly_installment:
+  - text: "• You can create Standing order from your SB account to RD account via mBoB or  submitting a form at the bank
+    • You can visit the bank every month to make a cash deposit in your RD account. "
+
+  utter_op_simple_recur_premature:
+  - text: "Yes but you will be given 1% less of interest than the applicable interest the RD has been kept with the Bank. However, if the RD is closed before 3 months, you will not be eligible for interest."
+
+  utter_op_simple_recur_default:
+  - text: "If you fail to pay monthly installment, a penalty of 1% per installment for each defaulted month will be recovered from the total payable amount."
+
+  utter_op_remittance_what_outward:
+  - text: "Remittances which are being transferred to any part of the world via SWIFT. We remit funds for business, medical, allowances, studies, Imports etc."
+
+  utter_op_remittance_how:
+  - text: "For making an outward remittance, please walk into any Bank of Bhutan branches and initiate the outward remittance by filling up Application for Foreign Outward Remittance specifying the necessary details. 
+In addition to this, you have to provide documentary proof - For documents requirement, you may visit our [website](https://www.bob.bt/wp-content/uploads/2022/08/Documents-required-for-Outward-Remittance-Aug-2022.pdf)or may visit our nearest Branch"
+
+  utter_op_remittance_limit_out:
+  - text: "No limit"
+
+  utter_op_remittance_cost_out:
+  - text: "0.20% (Min. Nu. 100) plus transmission charges of Nu. 500 and intermediary bank charges"
+
+  utter_op_remittance_exchangerate:
+  - text: "T.T selling rate"
+
+
+  utter_op_remittance_credit_out:
+  - text: "Funds will be credited to the beneficiary account within 3 working days."
+
+  utter_op_remittance_what_in:
+  - text: "It is a remittance received through SWIFT transfer. All foreign currency Inward fund transfer can be transferred from our correspondent Bank and other banks via swift routing through our Correspondent Bank
+To remit funds in foreign currency from any part of the world (excluding India) to Bhutan, please request your Bank to remit the money through our Correspondent Bank to save charges and for safer transactions."
+
+  utter_op_remittance_information:
+  - text: "Please click [required details to be provided for each foreign currency](https://www.bob.bt/business-banking/remittance/foreign-currency-remittance/)"
+
+  utter_op_remittance_limit_in:
+  - text: "No limit"
+
+  utter_op_remittance_cost_in:
+  - text: "No"
+
+  utter_op_remittance_credit_in:
+  - text: "Depends on the remitting bank procedures"
+
+  utter_op_remittance_personal:
+  - text: "Yes, you must produce source of fund and documentary proof."
+
+
+  utter_op_location:
+  - text: "Our Corporate office is located at Norzin Lam, Thimphu, Bhutan."
+
+  utter_op_opening:
+  - text: "The Bank is opening at 9.00 AM from Monday to Friday."
+
+
+  utter_op_history:
+  - text: "The Bank of Bhutan is the oldest bank in the country started in May 1968. It was the Central Bank of Bhutan till 1982. Today, the largest commercial Bank has 47 branch offices in every Dzongkhag. The Bank started Core Banking Solution in 2009 for ATMs, Internet Banking, POS and Mobile & Agency Banking Services."
+
+  utter_op_md:
+  - text: "The CEO of Bank of Bhutan is Mr Dorji Kadin"
+
+# ncgsf *************************************************************
+
+  utter_ncgs_explain:
+  - text: "The National Credit Guarantee Scheme (NCGS) is a counter cyclical policy measure during the COVID-19 situation to stimulate investments through enhanced access to finance. The Government will guarantee a portion of the loan under the scheme."
+
+  utter_govt_guar:
+  - text: "The Guarantee will be limited to debt financing of the project. NCGS coverage will not exceed Nu. 30 million."
+
+  utter_guar_period:
+  - text: "The guarantee period will not exceed a maximum of three years."
+
+  utter_debt_ratio:
+  - text: "The Debt to Equity Ratio under the NCGS will be 90:10, which is significantly lower than the existing 75:25. However, for start-ups under CSI category, equity requirement will be exempted."
+
+  utter_ncgs_eli:
+  - text: "All aspiring Bhutanese desiring to start new projects or upgrade existing projects, under the category of Cottage and Small, Medium and Large industries."
+
+  utter_ncgs_biz:
+  - text: "This Scheme is available to eligible business of large, medium and CSI, including primary producer, which falls under the category of productive sector. The definition of productive sectors and full details of the eligibility criteria are available through the NCGS website and the participating Bank websites."
+
+  utter_ncgs_apply:
+  - text: "The NCGS is accessible by direct application to participating Banks. The Banks will start receiving application from October 23, 2020."
+
+  utter_ncgs_part:
+   - text: "The Bank of Bhutan, Bhutan Development Bank and National CSI Development Bank will participate in the NCGS from the launch."
+
+  utter_ncgs_rate:
+  - text: "The interest rates will be applicable as follows:\n\n
+
+a) Cottage & Small industries:\n\n
+
+7% during gestation period; and 8 % after commercial operation.\n\n
+
+b) Medium & Large industries:\n\n
+
+8.75% during gestation period; and 9.75 % after commercial operation"
+
+  utter_ncgs_same:
+  - text: "A separate loan application form is available for loans under the NCGS, which will be made available on the Banks’ websites before October 23, 2020."
+
+  utter_ncgsf:
+  - text: "NCGSF is one-stop shop for NCGS related support and information."
+
+  utter_ncgs_support:
+  - text: "In addition to facilitating the guarantee approval, the NCGSF will support project development guidance; facilitate clearances and approval for business establishment; and smooth implementation of the projects under the NCGS."
+
+  utter_ncgs_contact:
+  - text: "The NCGSF is located in Chubachu, opposite of the Tarayana Complex, Tourism Council of Bhutan Office. Till permanent lines are established, you can contact us on 17341733 (Ugyen), 17587762 (Namgyal) and 77106677(Yeshi)."
+
+# remit ###########################################################
+
+  utter_remit:
+  - text: "It is a platform initiated by the RMA to facilitate non-resident Bhutanese to conveniently apply for foreign currency account with an authorized bank in Bhutan"
+
+  utter_directors:
+  - text: "The directors of the Bank of Bhutan are the following:\n\n
+  Corporate Affairs Director: Mr. Tshering Tenzin\n\n
+  Operation Director  : Miss Karma Dema\n\n
+  Credit Director : Mr. Prem Moktan\n\n
+  ICT Director : Mr. Tsewang Dorji"
+
+  utter_remit_acc:
+  - text: "You can get\n\n
+   
+   Non-resident Bhutanese Foreign Currency Account (NRBFC)- Saving Deposit\n\n
+   Non-resident Bhutanese Ngultrum Account (NRBNC)- Saving and Fixed Deposit"
+
+  utter_remit_channel:
+  - text: "For NRBFC:\n\n Internet Banking, International debit card
+    For NRBNC:\n\n Internet Banking, International and Domestic Debit cards, mBOB"
+
+  utter_remit_open_acc:
+  - text: "Apply online through [RemitBhutan](www.rma.org.bt)\n\n
+    RMA verifies and forwards to our Bank\n\n
+    Bank processes and open your FC account"
+
+  utter_remit_access:
+  - text: "You can view your account balance and transaction details through internet banking and mobile banking."
+
+  utter_remit_transfer:
+  - text: "You can use the following modes to transfer money:\n\n
+
+    SWIFT- Thorough our [correspondent banks](https://www.bob.bt/international-banking/correspondent-banks/)\n\n
+    International money transfer partners- IME remit and EXPRESS MONEY"
+
+  utter_remit_withdrawal:
+  - text: "a) Withdrawal of convertible currency in cash is not permitted from your Foreign Currency
+account. Cash withdrawal in Ngultrum only will be allowed.\n\n
+
+b) Foreign currency in your account can be utilized for meeting the cost of import of goods and
+services against import license/invoices and on the expenses relating to Travel, Studies,
+Business and Medical treatment as per the Foreign Exchange Rules and Regulations of the RMA
+in force."
+
+  utter_remit_addition:
+  - text: "1. Minimum balance retention in the account is not mandatory.\n\n
+
+2. You are permitted full repatriation of the principal amount remitted in the currency of remittance.\n\n
+
+3. You are permitted to maintain the foreign currency account upon return to the country permanently.\n\n
+
+4. You can earn Interest on your Foreign Currency Account."
+
