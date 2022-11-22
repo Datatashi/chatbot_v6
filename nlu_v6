@@ -1,0 +1,1651 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - kuzuzangpola
+    - kuzu
+    - kuzuzangpo
+    - kuzozangpoo
+    - kuzoo
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    - what is your name?
+    - Do I know you?
+    - are you a robot?
+
+- intent: bob_help
+  examples: |
+    - Can you help me?
+    - I need help please.
+    - What can you help me.
+    - I want your help.
+    - Could you help me?
+###########################################################
+- intent: atmfacilities
+  examples: |
+    - what are the facilities offered through ATM?
+    - facilities atm.
+    - services through atm?
+    - different services through atm.
+    - facilities of atm.
+
+- intent: atmavail
+  examples: |
+    - how do i avail the atm card facility?
+    - atm application form.
+    - atm card application.
+    - new account opening for atm.
+    - how to get atm facility.
+
+- intent: atmeligibility
+  examples: |
+    - what is the eligibility for atm card facility?
+    - eligibility criteria.
+    - am I eligible to apply for atm?
+
+- intent: atmcharges
+  examples: |
+    - what are the charges for ATM card?
+    - how much do I pay for ATM?
+    - charges for atm?
+    - price of atm.
+    - What is the price of atm.
+    - Atm cost.
+
+- intent: atmreceive
+  examples: |
+    - How do I receive the ATM card?
+    - receive atm card.
+    - recive atm card.
+    - recieve atm card.
+    - How to receive the atm card?
+    - where to get the atm card?
+
+- intent: atmreplace
+  examples: |
+    - How do I get the replacement card?
+    - replace my atm card.
+    - atm card lost.
+    - atm card damage.
+    - replace old atm card.
+    - I lost my atm card
+    - how to renew atm card
+    - change my account of atm.
+    - change my pin number atm.
+    - how to change password of atm.
+    - my atm card is misplaced.
+
+- intent: atmwithdraw
+  examples: |
+    - What is the daily cash withdrawal limit?
+    - withdrawal of cash
+    - withdrawal limit of atm
+    - maximum amt for atm
+    - maximum limit to take out from atm.
+    - how much can I withdraw?
+
+- intent: atm_lost
+  examples: |
+    - what is fast cash?
+    - fast cash.
+    - fast atm
+    - faster withdrawal
+
+- intent: atmfast
+  examples: |
+    - what is fast cash?
+    - fast cash.
+    - fast atm
+    - faster withdrawal
+
+# CARDS ---------------------------------------------------------------------------------
+
+- intent: cards
+  examples: |
+    - What are the types of Cards offered by Bank of Bhutan Limited?
+    - Different kind of cards offered by BoB?
+    - all cards by bob.
+    - I want to know what cards are offered.
+
+- intent: card_avail_service
+  examples: |
+    - Who can avail BoB’s Card services?
+    - Who is eligible for bob card?
+    - I want to know who can get card services.
+
+- intent: card_security
+  examples: |
+    - Is the Bank of Bhutan Limited issued card secure?
+    - What is security for cards?
+    - is there any security issue with cards?
+
+- intent: card_avail
+  examples: |
+    - How do I Avail Debit Card?
+    - How can I get the debit card?
+    - I want to get debit card.
+
+- intent: card_choose
+  examples: |
+    - How do I choose a Credit Card?
+    - How to choose a credit card?
+    - I want to choose a credit card.
+    - What credit card if good for me?
+
+- intent: card_fee
+  examples: |
+    - Do I need to pay a joining fee to avail a credit card?
+    - Do I need to pay extra to get credit card?
+    - what are the charges of credit card?
+
+- intent: card_amount
+  examples: |
+    - How much can I borrow on Credit Card?
+    - I much money can I get on Credit card.
+    - Total amount in the credit card.
+
+- intent: card_wait_time
+  examples: |
+    - How long does it take to get a credit card?
+    - I have got my credit card.
+    - How long do i have to wait to get a credit card.
+    - wait time credit card.
+
+- intent: card_debt
+  examples: |
+    - Can I pay off my credit card debt early?
+    - I want to pay credit card debt.
+    - How do I pay credit card debt early.
+
+- intent: card_abroad
+  examples: |
+    - Can I use my credit card abroad?
+    - I am in australia and I want to use credit card.
+    - How to use credit card in abroad.
+
+- intent: card_difference
+  examples: |
+    - What’s the difference between a credit card and a prepaid card?
+    - I don't know credit card and debit card.
+    - main difference between credit and prepaid card.
+
+- intent: card_repayment
+  examples: |
+    - What happens if I can’t keep up with my repayments?
+    - If I don't pay in time what would happen.
+    - I failed to pay on time.
+
+- intent: card_withdraw
+  examples: |
+    - Will I be charged if I withdraw cash on my credit card?
+    - How much do I pay on credit card?
+
+
+- intent: card_charges
+  examples: |
+    - Do credit cards charge annual fees?
+    - Do I have to pay extra in a year for credit card?
+    - How much do I pay in a year for credit card?
+
+- intent: card_min
+  examples: |
+    - What is the minimum monthly repayment for credit card means?
+    - minimum charges for credit card.
+    - monthly charges for credit card.
+
+- intent: card_lose
+  examples: |
+    - What do I do if I lose my credit card?
+    - I lost my credit card.
+    - I want to replace my credit card.
+    - my credit card is damaged.
+
+- intent: card_working
+  examples: |
+    - What should I do if my Card is not working?
+    - What do I do if credit card is not working?
+    - credit card is not working.
+    - problem with credit card.
+    - can't login to credit card.
+
+- intent: card_debit_outside
+  examples: |
+    - Can my Debit Card be used for transactions outside Bhutan?
+    - Can I use debit card in india?
+    - Can I use debit card in nepal?
+
+
+- intent: card_prepaid
+  examples: |
+    - Card Limit on INR Prepaid Card per month and card validity?
+    - how much inr limit on prepaid card per month.
+    - total inr money I get per month in prepaid card.
+
+- intent: card_reload
+  examples: |
+    - How do I Reload my INR Prepaid Card?
+    - I want to refresh INR Prepaid Card?
+    - Load again my INR Prepaid Card?
+
+- intent: card_reload_charge
+  examples: |
+    - Will I be charged for reloading into my INR Prepaid Card?
+    - how much do I pay for reloading into my INR Prepaid Card?
+    - charge for reloading into my INR Prepaid Card?
+
+- intent: card_balance_claim
+  examples: |
+    - If I have a balance on my prepaid card, how do I claim it?
+    - I have a balance on prepaid card and I claim it?
+    - check balance on my prepaid card?
+
+- intent: card_benefit
+  examples: |
+    - Benefits of having a Credit Card?
+    - why Credit Card?
+    - what are Benefits of Credit Card?
+
+- intent: card_bill
+  examples: |
+    - How do I pay my credit card bill?
+    - I can't pay credit card bill.
+    - where to pay credit card bill?
+
+
+- intent: card_domestic_region
+  examples: |
+    - Where does Domestic Credit Card work?
+    - Which places Domestic Credit Card work?
+    - Can Domestic Credit Card work in india?
+    - Can Domestic Credit Card work in nepal?
+    - Can Domestic Credit Card work in thailand?
+
+
+- intent: card_max_limit
+  examples: |
+    - Maximum Card limit of Domestic Credit Card and its validity?
+    - limit of Domestic Credit Card?
+    - what is  Domestic Credit Card validity?
+
+
+- intent: card_debit_charges
+  examples: |
+    - Debit Card charges and fees while doing transactions in Bhutan, India, and Nepal?
+    - how much Debit Card charges and fees while doing transactions outside bhutan?
+    - Debit Card charges if I take out money in India and Nepal?
+
+- intent: domcard
+  examples: |
+    - what is domestic card?
+    - I can't get a domestic card.
+    - Where to register for domestic card.
+    - what are benefits for domestic card.
+
+# mbob ------------------------------------------------------------
+- intent: mbob
+  examples: |
+    - what is mbob?
+    - Can you tell me about mbob?
+    - what is function of mbob
+    - I want to know about mbob
+
+- intent: mbob_os
+  examples: |
+    - Does mBoB support in all the available Operating Systems?
+    - which mobile support mbob?
+
+- intent: mbob_min_os
+  examples: |
+    - What is the minimum Operating System versions required for mBoB?
+    - What is Operating System required for mBoB?
+
+- intent: mbob_charges
+  examples: |
+    - Are there any charges for using mBoB?
+    - how much charges for mBoB?
+
+- intent: mbob_download
+  examples: |
+    - How and from where do I download mBoB?
+    - How to download mBoB?
+
+- intent: mbob_space
+  examples: |
+    - Will mBoB app occupy too much space on my phone?
+    - my phone is hanging due to mBoB.
+    - I don't have enough space for mBoB.
+    - how much mb required for mBoB?
+    - What is the memory required by mBoB?
+
+- intent: mbob_outside
+  examples: |
+    - Can I use mBoB outside Bhutan?
+    - I am outside bhutan how to use mBoB?
+    - I am in australia how to use mBoB?
+
+- intent: mbob_no_internet
+  examples: |
+    - Can I use mBoB without internet connection?
+    - I don't have internet connection to connect mbob.
+
+- intent: mbob_sim
+  examples: |
+    - Can I use the SIM of any service provider for mBoB?
+    - Can I use B mobile for mBoB?
+    - Can I use tashi cell for mBoB?
+
+- intent: mbob_online
+  examples: |
+    - Can i register online?
+    - How to apply online to register for mbob?
+
+- intent: mbob_start
+  examples: |
+    - How do I start using mBoB?
+    - I am new to mbob.
+    - how to use mBoB?
+    - I don't know how to use mBoB.
+    - mbob is complicated.
+
+- intent: mbob_pin
+  examples: |
+    - What is M-Pin and T-Pin?
+    - I want to know about M-Pin and T-Pin.
+    - my mpin is block
+    - how to reset mpin
+    - I can't remember my m-pin
+    - I forgot my t-pin
+    - I lost tpin
+
+- intent: m_pin
+  examples: |
+    - Can I change my M-Pin/T-Pin in mBoB?
+    - Is it possible to change mpin in mbob?
+    - Where can I find mpin
+
+- intent: mbob_wrong_mpin
+  examples: |
+    - What happens when I have used wrong M-Pin for several times?
+    - I am using mpin for several times for mbob
+    - I have a problem for using mpin for many times
+
+- intent: mbob_unblock_mpin
+  examples: |
+    - When access is blocked due to wrong usage of M-Pin, how do I unblock?
+    - access to mbob is blocked how do I unblock
+    - can i unblock the mbob 
+    - How can I unblock the mbob as I have entered a wrong mpin
+
+- intent: mbob_mpin_after_block
+  examples: |
+    - Can I continue to use same M-Pin after blocking the access?
+    - If I use same mpin after mbob is block will it work
+    - can mbob work with the same mpin?
+
+- intent: mpin_forgotten
+  examples: |
+    - I have forgotten M-Pin, what is the process?
+    - I want to change M-Pin and T-Pin.
+    - my mpin is block
+    - how to reset mpin
+    - I can't remember my m-pin
+
+- intent: mbob_tpin
+  examples: |
+    - I have forgotten T-Pin, what is the process?
+    - I forgot my t-pin
+    - I lost tpin
+
+- intent: mbob_user
+  examples: |
+    - I have forgotten the user ID.
+    - my user id is not working.
+    - how to reset user id.
+    - I can't remember my user id
+    - I lost user id
+
+- intent: mbob_dzongkha
+  examples: |
+    - Is mbob available in dzongkha?
+    - I want to use mbob in dzongkha.
+    - Can I use mbob in dzongkha?
+    - is there mbob for dzongkha?
+    - I want mbob for monks.
+
+- intent: mbob_link
+  examples: |
+    - What types of account can I link in mBoB?
+    - Different accounts in mBoB.
+    - I have two accounts and I want them in mBoB.
+    - Can I use second account in mBoB.
+    - I have current account and I want to link in mBoB.
+
+- intent: mbob_joint
+  examples: |
+    - Can a joint account be operated through mBoB?
+    - I want to use joint account in mBoB.
+    - How to use joint account in mBoB?
+    - mbob have joint account to use.
+    - how a joint account be operated in mBoB?
+
+- intent: mbob_link_joint
+  examples: |
+    - How do I link joint account in mBoB?
+    - can I link joint account in mBoB?
+    - joint account can't be linked in mBoB.
+    - I have problem in mbob with linking joint account.
+    - can you help me with linking account joint in mbob?
+
+- intent: mbob_minor
+  examples: |
+    - my son is 10 years old and want mbob.
+    - can minor use mbob?
+    - Can a minor account be provided with mBoB service?
+    - is there a minor account in mbob?
+    - my daughter is 15 and I want her to have mbob.
+    - my daughter is 16 and I want her to have mbob.
+    - my daughter is 17 and I want her to have mbob.
+
+- intent: mbob_minor_register
+  examples: |
+    - Can a minor customer be able to register directly through App?
+    - I am minor and I want to register through mBoB.
+    - I am underage to register for mbob
+    - is there a way to register for underage in mbob?
+    - underage and minor registration for mbob.
+
+- intent: mbob_fingerprint
+  examples: |
+    - Can i use fingerprint as an alternative login option in mbob?
+    - How to use fingerprint to login to mbob
+    - mbob login using fingerprint
+    - steps to login using fingerprint method
+    - fingerprint login problem
+    - I have issue with fingerprint login
+
+- intent: mbob_services
+  examples: |
+    - What services are available in mBoB?
+    - how many services are in mBoB?
+    - services available in mBoB.
+    - I want to know about the services in mbob
+    - I don't know services of mbob.
+
+- intent: mbob_details
+  examples: |
+    - Are account details in mbob stored on my mobile device?
+    - account details should store in mbob and phone.
+    - Do you think account would be stored in phone from mbob
+    - I don't want to store mbob account details in phone.
+    - how to look for mbob account details in phone
+
+- intent: mbob_func_transfer
+  examples: |
+    - What types of Funds Transfers can be initiated through mBoB?
+    - I want to transfer fund through mbob
+    - where can I transfer fund in mbob
+    - can I transfer money in mbob
+    - how can i transfer money in mbob?
+
+- intent: mbob_transaction
+  examples: |
+    - Can transaction be canceled or changed through mBoB?
+    - transaction in mbob should be cancelled
+    - I want to cancel the transaction in mbob
+    - I want to cancel the money transfer through mbob
+    - How to cancel the transaction by mbob
+
+- intent: mbob_pay
+  examples: |         
+    - can I pay bills through mbob?
+    - pay a bill by mbob
+    - where can i pay bill in mbob
+    - payment of bill in mbob
+    - bill payment in mbob is not found
+
+- intent: mbob_report_transaction
+  examples: |
+    - How do I report a problem with mBoB transaction?
+    - I want to report mbob transaction.
+    - my mbob transaction failed
+    - what should I do if mbob transaction fail
+    - how to recover for mbob transaction fail
+
+- intent: mbob_protect
+  examples: |
+    - How important is to protect your mobile device for mbob?
+    - Is it important to protect mbob in phone?
+    - Why to protect phone?
+    - should I clean the phone for protection?
+    - Do you provide protection for phone.
+
+- intent: mbob_stolen
+  examples: |
+    - What happens if my mobile device is lost or stolen?
+    - Can you find my phone which is stolen?
+    - If I lose my phone where to find it.
+    - What will happen to the stolen phone
+    - if phone is lost how to report.
+
+- intent: mbob_change
+  examples: |
+    - What should I do if I change my mobile device or number or service provider?
+    - I want to change the mobile number.
+    - Do you have facility to change the mobile number.
+    - I am changing the mobile service provider
+    - update the service provider for the phone
+
+- intent: mbob_external
+  examples: |
+    - What is the process if wanted to use mBoB app from different device
+    - how to use mbob from other phone.
+    - I want to use different phone for mbob.
+    - I have mbob in other phone.
+    - I don't want to change phone but want to use mbob
+
+- intent: mbob_payment_merchant
+  examples: |
+    - How do I make payments to merchants with mbob?
+    - Do you know how to pay to merchants with mbob.
+    - I can't pay to a merchant with mbob
+    - merchant can't receive payment with mbob
+    - What to do if I pay to a merchant.
+
+- intent: mbob_wrong_transfer
+  examples: |
+    - How to prevent transfer to wrong account/transfer with wrong amount?
+    - I transfer to a wrong account in mbob
+    - I transfer a wrong amount in mbob.
+    - I want to stop transferring amount to a wrong account
+    - how to stop send wrong amount
+
+- intent: mbob_wrong_beneficiary
+  examples: |
+    - If transferred by mbob to wrong beneficiary, how do I receive my money back?
+    - I want my money back that was sent to a wrong person by mbob
+    - money was sent to a wrong person and I want my money by mbob
+    - A wrong person got my money return my money by mbob
+    - pay my money back if wrong person got my money by mbob
+
+- intent: mbob_report_undue
+  examples: |
+    - What and where to report if my account is credited with undue amount in mbob?
+    - I mbob a wrong account and I want to report it to the bank
+    - Where can I report for sending to a wrong account by mbob
+
+- intent: mbob_why_no_payment
+  examples: |
+    - When transferring to other bank account, why beneficiary doesn't receive the payment?
+    - Why is money is not able to receive my money sent by mbob
+    - How do I report if mbob can't transfer money to the person.
+
+- intent: mbob_no_receive
+  examples: |
+    - For other bank transfer, what should I do if beneficiary has not received the amount by mbob?
+    - I sent to a bank from bob but transaction by mbob was failed.
+    - what if other bank didn't receive money sent via mbob
+
+- intent: mbob_beneficiary_account_check
+  examples: |
+    - How do I confirm if the beneficiary account number is correctly provided or not in mbob?
+    - I want to know if the account number is correct in mbob
+    - I want to check if the account number is correct in mbob before transaction.
+
+- intent: mbob_complaint_fail_transfer
+  examples: |
+    - Do I need to raise any complaint for the failed interbank transactions by mbob?
+    - how to complain for failing interbank transaction by mbob?
+    - I failed transaction by mbob from bob to bnb I want to report
+    - where to report if I fail the transaction from bob to other bank by mbob
+
+- intent: mbob_interbank_reverse
+  examples: |
+    - Can the interbank transaction be reversed to the remitter account?
+    - i want to reverse the amount to the account holder
+    - how to transfer back to the remitter account
+
+- intent: mbob_redo_iferror
+  examples: |
+    - If any error is received while doing fund transfer, should I re-initiate?
+    - How to reinitiate if there is an error while fund transfer?
+    - I made mistake in transferring fund and I want to reinitiate
+
+- intent: mbob_userid
+  examples: |
+    - How do I get USER ID for mbob?
+    - I can't login to mbob using userid
+    - my userid is not working for mbob
+    - userid is forgotten for mbob
+    - userid is lost and can't remember mbob
+
+- intent: mbob_scan_pay
+  examples: |
+    - What are the advantages of using Scan & Pay in mbob?
+    - I want to know the good thing of using scan and pay in mbob
+    - mbob scan and pay is not good
+    - why should i use scan and pay mbob
+
+- intent: mbob_qr
+  examples: |
+    - Do I need to visit branch to avail QR code for mbob?
+    - Where to get the QR code for mbob
+    - QR code for mbob is not found where
+    - Can i send my someone to get my QR code?
+
+- intent: mbob_interbank_payment
+  examples: |
+    - Can the QR code generated through mbob be used to accept inter bank payments?
+    - QR code in my mbob can be accepted by other bank.
+    - is it possible for qr code of my mbob transfer to other bank
+
+- intent: mbob_otherbank_merchant
+  examples: |
+    - If I pay to other bank's merchant by way of scanning QR code and the amount is not credited, what should I do?
+    - If qr code transfer is not successful what to do.
+    - I fail to transfer to other bank with qr code
+
+- intent: mbob_qr_blank
+  examples: |
+    - What should I do when my QR code scanner comes blank?
+    - qr code is empty and blank
+    - I want to report for empty qr code
+
+- intent: mbob_when_scan
+  examples: |
+    - When should I use Scan & Pay in mbob?
+    - where should i use scan and pay by mbob?
+    - mbob scan and pay should be used when
+
+- intent: mbob_fix_recur
+  examples: |
+    - Can I open Recurring and Fixed Deposit account via mBoB?
+    - How can I open account for fixed deposoit with mbob
+    - I don't know how to open a fixed deposit in mbob
+
+- intent: mbob_deduct_recur
+  examples: |
+    - Will my monthly installment for recurring deposit account opened through mBoB be auto-deducted from my account?
+    - I want to deduct monthly installment from saving account with mbob
+    - can installment be transfer automatically to my recurring by mbob
+
+- intent: mbob_close_term
+  examples: |
+    - Can I close Recurring and Fixed deposit?
+    - how can I close term deposit in mbob?
+    - please close my recurring deposit in mbob
+    - I want to close fixed deposit in mbob
+
+- intent: mbob_termdeposit_not_closed
+  examples: |
+    - Is there any recurring or fixed deposit account that I cannot process closure from mBoB app?
+    - I want to check if any account is not closed from mbob
+    - i closed my fixed deposit from mbob and I want to check if it is done
+
+- intent: mbob_renewal_card
+  examples: |
+    - Can I apply for debit card replacement or renewal from mBoB?
+    - how to apply for replacement of card from mbob
+    - does mbob have services for renewal or replacement from mbob.
+
+- intent: mbob_replace_benefit
+  examples: |
+    - What is the advantage if applying the card replacement/renewal through mBoB app?
+    - is it good to apply for card from mbob for replacement or renewal
+    - Why to replace card from mbob
+
+- intent: mbob_donate
+  examples: |
+    - How do I donate to Covid fund from mbob?
+    - I want to donate to the covid fund from mbob
+    - mbob donation for covid 19 where
+
+- intent: mbob_statement
+  examples: |
+    - Can I request account statement online in mbob?
+    - Where can I get account statement online from mbob
+    - I want statement online in mbob
+  
+
+- intent: mbob_max_statement
+  examples: |
+    - What is the maximum period that I can request statement for mbob?
+    - maximum days for statement in mbob
+    - I want to get the statement of years from mbob
+    - how many days would the statement reflect in mbob
+
+- intent: mbob_email
+  examples: |
+    - How do I know if my email is updated or not in mbob?
+    - email is not updated in mbob
+    - mbob can't show the updated email
+    - where can i update the email address in mbob
+
+- intent: mbob_update_email
+  examples: |
+    - How do I update email address for receiving my account statement for mbob?
+    - where to update the email address in mbob
+    - mbob don't have update email
+
+- intent: mbob_cardless_atm
+  examples: |
+    - Do I need to have ATM card to use cardless withdrawal facility?
+    - I want to use cardless withdrawal with my atm
+    - cardless withdrawal with atm card is not working
+
+- intent: mbob_cardless_problem
+  examples: |
+    - I have recently registered for mBoB but cardless service isn't working. Why?
+    - why cardless is not working
+    - i have registered for cardless and it is not working again
+
+- intent: mbob_cardless_withdrawal
+  examples: |
+    - What is the limit for the cardless withdrawal from mBoB?
+    - how much money can i withdraw from mbob in a day
+    - one time withdrawal limit from mbob
+
+- intent: mbob_cardless_otherbank
+  examples: |
+    - Will mBoB cardless facility work to withdraw from other bank's ATMs?
+    - can i use cardless to withdraw from bnb atm
+    - can i withdraw frm punjab bank atm with cardless
+
+- intent: mbob_noaccount_atm
+  examples: |
+    - Can a person without having an account with BoB be able to withdraw cash through BoB ATM?
+    - If I don't have account but I want to take out money from atm
+    - atm can have facility to withdraw even if i don't have an account with bob
+
+- intent: mbob_delink
+  examples: |
+    - How can I add/delink account(s) through mBoB?
+    - I want to link accounts in mbob
+    - can i link two accounts in mbob?
+
+- intent: mbob_los
+  examples: |
+    - Can I check my loan outstanding balance in mbob?
+    - what is my loan outstanding balance in mbob
+    - what is the balance amount in loan in mbob
+
+- intent: mbob_loan_account
+  examples: |
+    - Can I close my loan account through mBoB?
+    - I want to close loan account through mbob
+    - is it possible to close loan through mbob?
+
+- intent: mbob_airticket
+  examples: |
+    - Can I pay for Drukair ticket in mbob?
+    - how to pay airticket in mbob?
+    - I want to pay for drukair with mbob
+
+- intent: mbob_features
+  examples: |
+    - How do I know for any new feature (s) added in mBoB?
+    - Do I get notify if a new feature is added in mbob
+    - if there is a new feature will I get an email
+
+- intent: mbob_reward
+  examples: |
+    - How does reward feature works in mbob?
+    - I want to get reward from mbob
+    - when do I get reward from mbob
+
+- intent: mbob_transfer_limit
+  examples: |
+    - What is the inter bank fund transfer limit ?
+    - is there any limit for inter bank fund transfer
+    - I want to transfer money from mbob for inter bank what is the limit
+
+- intent: mbob_customer_categories
+  examples: |
+    - What are the customer categories in mBoB?
+    - What are the different categories in mbob
+    - how many customer categories are there in mbob
+
+- intent: mbob_thumb
+  examples: |
+    - Who are thumbprint customers in mbob?
+    - What is thumbprint customer in mbob?
+    - I want thumbprint in mbob
+
+- intent: mbob_categories_limit
+  examples: |
+    - What are the fund transfer limits for these categories in mbob?
+    - I want to know fund transfer limit in each category mbob
+    - how much money can be transfer in each category in mbob
+
+- intent: mbob_categories_interbank
+  examples: |
+    - Will these category-based limit be applicable to interbank transaction as well in mbob?
+    - what is the limit for category for interbank transaction in mbob
+    - I want to know inter bank transaction limit for ca
+
+- intent: mbob_thumb_online_register
+  examples: |
+    - Can a thumbprint customer register directly online for mbob?
+    - can I register online with thumbprint for mbob
+    - how to register online for a thumbprint in mbob
+
+- intent: mbob_thumb_doc
+  examples: |
+    - What documents are required for thumbprint customers to register for mBoB?
+    - what are the documents required for thumbprint registration for mbob
+    - I want to know the requirement of documents for thumbprint registration
+
+- intent: mbob_thumb_cardless
+  examples: |
+    - Can a thumbprint customer avail cardless withdrawal facility in mBoB?
+    - I want to have mbob cardless with thumbprint
+    - I am a thumbprint and I want to know if cardless withdrawal is available for me.
+
+- intent: mbob_thumb_mpin
+  examples: |
+    - Can a thumbprint be able to reset M-Pin/T-Pin/Login device through mbob?
+    - Can I reset mpin and tpin with a thumbprint in mbob
+    - Is it possible to reset mpin and tpin if I have a thumbprint
+
+- intent: mbob_thumb_categories_limit
+  examples: |
+    - Can a thumbprint customer avail higher transaction limit by changing the category in mbob?
+    - I am a thumbprint customer and I want to have higher transaction limit after changnig the category in mbob
+    - If I change the category will I have a higher transaction limit for a thumbprint in mbob
+
+- intent: mbob_thumb_categories
+  examples: |
+    - How do I change my mBoB Category?
+    - I want to change mbob category
+    -How can I change the category for mbob
+
+- intent: mbob_premiums
+  examples: |
+    - What types of insurance premiums can I pay from mBoB?
+    - I want to know about the insurance premiums that can be paid from mbob
+    - what kind of insurance premium be paid from mbob
+
+- intent: mbob_report_stops
+  examples: |
+    - where should I report if my App suddenly stops working?
+    - my mbob stop functioning what to do
+    - I want to report for my mbob not working
+
+- intent: mbob_services_recharge
+  examples: |
+    - Is there any limit on amount for mobile recharge services for mbob?
+    - What is the mbob limit on amount for mobile recharge services
+    - how much can i use from mbob for mobile recharge services
+
+- intent: mbob_alarts
+  examples: |
+    - How do I ensure that transaction alerts are received from the bank on mbob?
+    - I am not getting alert from the bank on mbob
+    - I want transaction alerts from the bank when I use mbob
+
+- intent: mbob_fake
+  examples: |
+    - How do I avoid being the victim of fake mBoB screenshots?
+    - I am cheated by a fake screenshot of mbob
+    - Is there a way to find if a mbob screenshot is a fake
+
+- intent: mbob_update
+  examples: |
+    - Why mBoB App needs to be updated frequently?
+    - why do I have to update mbob
+    - I want to know the reason to update mbob
+
+- intent: mbob_over_cash
+  examples: |
+    - Why should I use mBoB over cash transaction?
+    - I want to use mbob over cash for good
+    - how is mbob better than cash transfer
+
+- intent: mbob_safety_tips
+  examples: |
+    - What are safety-tips for using mBoB?
+    - Is there safety method by bob for using mbob
+    - how to use mbob to be safe
+
+# gbob -----------------------------------------------------
+- intent: gobob_download
+  examples: |
+    - WHERE CAN I DOWNLOAD goBoB MOBILE APPLICATION FROM?
+    - I want to download gobob app
+    - How can I download gobob app?
+    - Where can I get gobob?
+
+- intent: gobob_register
+  examples: |
+    - HOW TO REGISTER FOR goBoB WALLET?
+    - I want register for gobob
+    - Could you help me to register gobob
+    - where can I register gobob
+
+- intent: gobob_features
+  examples: |
+    - What are the features in goBoB?
+    - I want to know more about gobob features
+    - How many feature are there in gobob
+    - features available in gobob.
+
+- intent: gobob_benefit
+  examples: |
+    - what are benefits of goBoB
+    - How many benefits are there for using gobob
+    - benefit of using gobob service?
+    - Is gobob good service?
+
+- intent: gobob_mbob
+  examples: |
+    - What are difference between goBoB and mbob
+    - I want to know difference between mbob and gobob
+    - Tell me why gobob over mbob
+    - good and bad of gobob and mbob?
+
+- intent: gobob_customers
+  examples: |
+    - DIFFERENT TYPES OF CUSTOMERS AND THEIR LIMITS gobob?
+    - How many customer types are there for gobob
+    - who are the customer of gobob
+    - what is my customer type for gobob
+
+- intent: gobob_cost
+  examples: |
+    - CHARGES FOR USING goBoB
+    - How much do I pay for using gobob
+    - Do I have to pay for gobob service?
+    - Is gobob free?
+
+- intent: gobob_security
+  examples: |
+    - SECURITY of gobob
+    - is gobob safe?
+    - How safe is gobob?
+    - I feel unsecure using gobob
+
+# operations ----------------------------------------
+- intent: op_flex_recur_deposit
+  examples: |
+    - What is Flexi Recurring Deposit?
+    - I want to know about flexi recurring deposit.
+    - Why to have flexi recurring deposit?
+
+- intent: op_flex_max
+  examples: |
+    - What is the maximum installment I can choose to deposit in a month for flexi recurring deposit?
+    - How much installment should I deposit in flexi recurring deposit?
+    - Can you tell me the installment for Flexi Recurring Deposit?
+
+- intent: op_flex_doc
+  examples: |
+    - What are the documents required to open flexi recurring deposit?
+    - I want to know documents requirement to open Flexi Recurring Deposit.
+    - Flexi Recurring Deposit documents requirement.
+
+- intent: op_flex_alternative
+  examples: |
+    - Can you suggest any alternative ways to open Flexi Recurring Deposit? 
+    - Is there other way to open Flexi Recurring Deposit?
+    - I want to open Flexi Recurring Deposit in other type.
+
+- intent: op_flex_amount
+  examples: |
+    - Can I deposit Nu. 40,000 in a month for Flexi Recurring Deposit?
+    - Can i deposit Nu. 10,000 for flexi recurring deposit?
+    - If i deposit Nu. 5000 per month in flexi recurring deposit.
+    - What would happen if I deposit Nu. 1000 in flexi recurring deposit.
+
+- intent: op_flex_premature
+  examples: |
+    - Can I premature Flexi RD?
+    - Premature flexi rd is allowed or not.
+    - I want to premature flexi account.
+
+- intent: op_flex_installment
+  examples: |
+    - Can I deposit Nu.10 as an installment for Flexi Recurring Deposit?
+    - Would it be ok to deposit Nu. 20 for installment for flexi recurring deposit.
+    - installment of Nu. 30 is ok for flexi recurring deposit.
+
+- intent: op_flex_min
+  examples: |
+    - Can open Flexi RD for 6 months for Flexi Recurring Deposit?
+    - is it ok if I open flexi account for 6 months?
+    - I want to open flexi rd for 6 months.
+
+- intent: op_flex_open
+  examples: |
+    - How long it will take to open Flexi RD from the counter in you branch?
+    - What is the time taken to open flexi rd.
+    - How many days would it take to open flexi rd.
+
+- intent: op_flex_best
+  examples: |
+    - Is Flexi the best way to save?
+    - Flexi saving is a best way to save money
+    - Why is flexi saving good?
+
+- intent: op_fixed
+  examples: |
+    - What is fixed deposit?
+    - Can you tell me about fixed deposit?
+    - What is meaning of fixed deposit?
+    
+
+- intent: op_fixed_who
+  examples: |
+    - Who all can open FD?
+    - Who is eligible for fixed deposit?
+    - anyone can apply for fixed deposit?
+
+- intent: op_fixed_freq
+  examples: |
+    - What is the frequency of interest payout?
+    - How many time is interest payout by the bob?
+    - I wanted to know the frequency of interest payout.
+
+- intent: op_fixed_tenure
+  examples: |
+    - What is the maximum tenure for FD?
+    - How long can I have FD?
+    - Do you know tenure for Fixed deposit.
+
+- intent: op_fixed_loan
+  examples: |
+    - Can I avail loan against FD?
+    - Is there loan again fixed deposit?
+    - I wanted to have loan again fixed deposit.
+
+- intent: op_fixed_doc
+  examples: |
+    - What are documents required for me to open FD?
+    - documentation for opening a fixed deposit.
+    - Opening a fixed deposit what all document required.
+
+- intent: op_partial
+  examples: |
+    - What is partial withdrawal?
+    - I want to know about partial withdrawal.
+    - partial withdrawal meaning is what.
+
+- intent: op_fixed_premature
+  examples: |
+    - Can I premature FD?
+    - How to premature fixed deposit.
+    - Premature fixed deposit is possible.
+
+- intent: op_fixed_mature
+  examples: |
+    - Do I have to come to bank at the time of maturity fixed deposit?
+    - Do I come in person if fixed deposit is matured.
+    - How to present when fixed deposit is matured.
+    
+
+- intent: op_fixed_mbob
+  examples: |
+    - Can I have my FD opened using mBoB?
+    - Is there facility in mbob to open fixed deposit
+    - I want to open fixed deposit on mbob
+
+- intent: op_cheque
+  examples: |
+    - How can I avail cheque for my SB account?
+    - I want to get the cheque for my saving account.
+    - Is it possible for me to get the cheque for my sb account.
+
+- intent: op_cheque_nobalance
+  examples: |
+    - What if I issue a cheque without balance?
+    - Is it ok if i issue cheque without balance?
+    - I don't have balance and I want to issue a cheque.
+
+- intent: op_cheque_booklet
+  examples: |
+    - How can I avail second and subsequent cheque booklet?
+    - How can I get the second and subsequent cheque book.
+    - can i have second cheque booklet from bob?
+
+- intent: op_cheque_cost
+  examples: |
+    - Do I have to pay for availing cheque booklet?
+    - How much is the charges for getting cheque booklet?
+    - what is the price of cheque booklet?
+
+- intent: op_cheque_personal
+  examples: |
+    - Can I have personalized cheque book?
+    - I want to have personal cheque booklet.
+    - how to customize cheque booklet?
+
+- intent: op_cheque_multi
+  examples: |
+    - Can the bank issue multiple booklets at one go?
+    - Can one person have more booklets?
+    - Can I have two cheque booklet?
+
+- intent: op_cheque_cancel
+  examples: |
+    - How can I cancel the bankers cheque?
+    - I want to cancel the bankers cheque.
+    - How to cancel the bankers cheque?
+    
+
+- intent: op_cheque_validity
+  examples: |
+    - What is the validity of the Bankers Cheque?
+    - How long can the bankers cheque valid.
+    - how many months can teh banker cheque valid?
+
+- intent: op_cheque_validate
+  examples: |
+    - How can I re-validate the bankers cheque?
+    - Can I revalidate the bankers cheque?
+    - I want to revalidate the bankers cheque.
+
+- intent: op_cheque_draft
+  examples: |
+    - Can the bank issue draft on the banks in India?
+    - is bob giving draft on the banks in india?
+    - I want to have draft on the banks in india.
+
+- intent: op_saving_who
+  examples: |
+    - Who can open saving account?
+    - Can someone open a saving account for me?
+    - saving account opening needs help.
+
+- intent: op_saving_how
+  examples: |
+    - How to open saving account?
+    - how can i open a saving account in bob.
+    - what are needed for opening a saving account?
+
+- intent: op_saving_what
+  examples: |
+    - What are the facilities offered while opening saving account?
+    - I want to know the services offered when I open a saving account.
+    - are there support by the bank for opening saving account.
+
+- intent: op_saving_interest_rate
+  examples: |
+    - What is the saving deposit interest rate provided?
+    - how much is the interest rate provided by the bank?
+    - What is the interest rate by bank?
+
+- intent: op_saving_calculate
+  examples: |
+    - How is the saving interest rate calculated?
+    - Do you have interest rate calculation?
+    - how to calculate the saving interest rate.
+    
+
+- intent: op_saving_problema
+  examples: |
+    - Who cannot open saving deposit account?
+    - I have problem opening a saving deposit account.
+    - I need a support opening a saving deposit account.
+
+- intent: op_saving_change
+  examples: |
+    - Do saving interest rate change?
+    - Is the saving interest rate changing?
+    - when will saving interest rate change?
+
+- intent: op_saving_multi
+  examples: |
+    - Can I have multiple saving account?
+    - I want have a multiple saving account.
+    - How many saving account can one person have?
+
+- intent: op_saving_cost
+  examples: |
+    - Do the bank charges for maintaining saving account?
+    - How much bank charge for saving account?
+    - Payment for saving account by the bank.
+
+- intent: op_saving_min
+  examples: |
+    - What is the minimum balance to be maintained in the saving account?
+    - How much money has to be kept in the saving account
+    - I want to keep a minimum money in the saving account.
+
+- intent: op_young_saver_mean
+  examples: |
+    - What do you mean by young saver?
+    - Please explain young saver.
+    - I want to know the young saver.
+
+- intent: op_young_saver_what
+  examples: |
+    - What are the features available in young saver?
+    - How many features are there in young saver.
+    - What are the facilities in young saver.
+
+- intent: op_young_saver_who
+  examples: |
+    - Can young saver operate the accounts or the guardian have to operate the accounts?
+    - can young saver take out money by himself?
+    - I am young saver and I want to take out money from the bank.
+    
+
+- intent: op_young_saver_interest_rate
+  examples: |
+    - What is the young saver interest rate provided?
+    - How much interest is given for the young saver.
+    - do you know the interest rate of the young saver?
+
+- intent: op_young_saver_calculate
+  examples: |
+    - How is the young saver interest rate calculated?
+    - I want to calculate the interest rate of young saver.
+    - interest rate of young saver calculation is needed.
+
+- intent: op_young_saver_document
+  examples: |
+    - What are the documents required for opening Young saver account?
+    - I want to know all the documents needed for opening a young saver account.
+    - what all documents are required for youngsaver.
+
+- intent: op_young_saver_cost
+  examples: |
+    - Do the bank charges for maintaining account of young saver?
+    - young saver need to pay for maintaining an account.
+    - how much is charged for maintaining young saver account.
+
+- intent: op_young_saver_min
+  examples: |
+    - What is the minimum balance to be maintained in the Young saver account?
+    - How much balance is to be kept in young saver account.
+    - can you tell me least amount of money to be maintain for young saver.
+
+- intent: op_fixed_multi_option
+  examples: |
+    - What do you mean by FD multi-option deposit?
+    - what is the meaning of fixed deposit multi- option deposit?
+    - I want to know about fixed deposit multi- option deposit.
+
+- intent: op_young_saver_atm
+  examples: |
+    - Can the young saver get the ATM card?
+    - can young saver have a atm card.
+    - my son and daughter want to have a atm card.
+
+- intent: op_empower_savings_what
+  examples: |
+    - What is an Empower Savings Bank account?
+    - I want to know about Empower Savings Bank account.
+    - please can you explain Empower Savings Bank account?
+    
+
+- intent: op_empower_savings_why
+  examples: |
+    - What are the benefits of Empower Savings Bank Account?
+    - is it good to have Empower Savings Bank account?
+    - how good is it to have Empower Savings Bank account?
+
+- intent: op_simple_recur_what
+  examples: |
+    - What is Simple Recurring Deposit?
+    - I want to know  Simple Recurring Deposit.
+    - How is  Simple Recurring Deposit?
+
+- intent: op_simple_recur_installment
+  examples: |
+    - What is the minimum and maximum installment I can choose to deposit in a month for Simple Recurring Deposit?
+    - How maximum can I deposit for  Simple Recurring Deposit?
+    - what minimum amount can I have in Simple Recurring Deposit?
+
+- intent: op_simple_recur_doc
+  examples: |
+    - What are the documents required to open Simple Recurring Deposit?
+    - what all documents are needed for  Simple Recurring Deposit?
+    - Simple Recurring Deposit documents are needed.
+
+- intent: op_simple_recur_alternative
+  examples: |
+    - Can you suggest any alternative ways to open Simple Recurring Deposit?
+    - Is there other way to open  Simple Recurring Deposit?
+    - I can't open a  Simple Recurring Deposit.
+
+- intent: op_simple_recur_tenure
+  examples: |
+    - What is the minimum and maximum tenure to open Simple RD?
+    - how long can I have  Simple Recurring Deposit?
+    - What is the shortest period that I can have  Simple Recurring Deposit?
+
+- intent: op_simple_recur_monthly_installment
+  examples: |
+    - How can I deposit the monthly installment to my RD account?
+    - I want to deposit installment  Simple Recurring Deposit.
+    - where can I deposit the installment for  Simple Recurring Deposit?
+
+- intent: op_simple_recur_premature
+  examples: |
+    - Can I premature Simple RD?
+    - I want to stop  Simple Recurring Deposit.
+    - I want to premature and take out money from  Simple Recurring Deposit.
+    
+
+- intent: op_simple_recur_default
+  examples: |
+    - What will happen to my RD account if I default in paying the installment? 
+    - Is there penalty if I don't pay  Simple Recurring Deposit?
+    - I forgot to pay the installment  Simple Recurring Deposit.
+
+- intent: op_remittance_what_outward
+  examples: |
+    - What is an Outward Remittance?
+    - Please explain outward remittance.
+    - I want to know more about outward remittance.
+
+- intent: op_remittance_how
+  examples: |
+    - How can I transfer the remittance?
+    - How to transfer money by remittance?
+    - I want to transfer money by remittance.
+
+- intent: op_remittance_limit_out
+  examples: |
+    - What is the limit for making an outward remittance?
+    - Is there maximum amount that is in outward remittance.
+    - outward remittance limit is not known.
+
+- intent: op_remittance_cost_out
+  examples: |
+    - What are the charges of outward remittance?
+    - Is there a charge for outward remittance?
+    - how much do I pay for outward remittance?
+
+- intent: op_remittance_exchangerate
+  examples: |
+    - What exchange rate shall be applicable for outward remittance?
+    - What is exchange rate for sending money?
+    - how much is exchange do I pay for outward remittance.
+
+- intent: op_remittance_credit_out
+  examples: |
+    - When can the outward remitted funds be credited to the beneficiary account?
+    - How long does it take to deposit the remittance in my account.
+    - Maximum period for deposit of remittance.
+
+- intent: op_remittance_what_in
+  examples: |
+    - What is an inward Remittance?
+    - I want know about inward remittance.
+    - how much is inward remittance?
+    
+
+- intent: op_remittance_information
+  examples: |
+    - What information should I provide to my remittance counterpart?
+    - I want to inform counter part for remittance.
+    - any information that i can share with my remittance counterpart.
+
+- intent: op_remittance_limit_in
+  examples: |
+    - What is the limit for inward remittance?
+    - how can i get inward remittance?
+    - what is the maximum inward remittance?
+
+- intent: op_remittance_cost_in
+  examples: |
+    - Does BOB charge for inward Remittance?
+    - any charges for inward remittance by bob.
+    - how much do i pay for the remittance.
+
+- intent: op_remittance_credit_in
+  examples: |
+    - When will the fund by remittance be credited to my account?
+    - I want to know the fund to be credited for remittance.
+    - how long will it take to credit the remittance?
+
+- intent: op_remittance_personal
+  examples: |
+    - Is high value remittance for personal are monitored?
+    - is someone watching for the high value remittance.
+    - who is looking after the high value remittance?
+
+- intent: op_location
+  examples: |
+    - where is BoB located?
+    - what is the address of BOB?
+    - Is BoB located at Norzin Lam?
+    - where is thimphu branch office?
+    - Thimphu Branch office location.
+
+- intent: op_opening
+  examples: |
+    - when is the bank opening?
+    - opening time
+    - time to open
+    - office open
+    - counter open
+    - branch opening
+    - branch open hour
+    - bank open time
+    - open bank
+    - when is bank opening tomorrow?
+    - when is the bank opening in weekdays?
+    - opening hour.
+    - open
+
+- intent: op_history
+  examples: |
+    - what is the history of the Bank?
+    - the first bank start?
+    - when was the bank inaugurated?
+    - who commission the bank.
+    - story of the bank.
+
+- intent: op_md
+  examples: |
+    - who is the md of bob?
+    - who is the ceo?
+    - who is the ceo of bank of bhutan?
+    - the boss of bank of bhutan.
+
+###### ncgsf ************************************************
+
+- intent: ncgs_explain
+  examples: |
+    - What is National Credit Guarantee Scheme (NCGS)?
+    - please explain NCGS
+    - meaning of NCGS
+
+- intent: ncgs_govt_guar
+  examples: |
+    - How much will the Government Guarantee?
+    - what is government guarantee?
+    - what guarantee by government?
+
+- intent: ncgs_guar_period
+  examples: |
+    - What is the guarantee period?
+    - How long is guarantee?
+
+- intent: ncgs_debt_ratio
+  examples: |
+    - What is the Debt to Equity Ratio to avail loans under NCGS?
+    - what is ratio for ncgs?
+
+- intent: ncgs_eli
+  examples: |
+    - Who will be eligible for NCGS?
+    - Who are eligible for NCGS?
+    - Eligibility for NCGS
+
+- intent: ncgs_biz
+  examples: |
+    - What kind of businesses are eligible for the Scheme?
+    - What business are allow under the NCGS scheme.
+    - What all business under scheme NCGS?
+
+- intent: ncgs_apply
+  examples: |
+    - How can businesses apply for the Scheme?
+    - businesses apply form.
+    - businesses to get in ncgs.
+    
+    
+
+- intent: ncgs_part
+  examples: |
+    - Which Banks are participating in the Scheme?
+    - What Banks are in ncgs.
+
+- intent: ncgs_rate
+  examples: |
+    - What is the interest rate applicable for NCGS?
+    - how much interest rate for NCGS?
+
+- intent: ncgs_same
+  examples: |
+    - Do we use the same loan application to apply for the NCGS?
+    - where is application for ncgs?
+
+- intent: ncgsf
+  examples: |
+    - What is National Credit Guarantee Support Facility (NCGSF)?
+    - what is NCGSF?
+    - meaning of NCGSF?
+    
+
+- intent: ncgs_support
+  examples: |
+    - What kind of support will the NCGSF provide?
+    - Do you support NCGSF provide?
+    - Do you NCGSF provide support?
+
+- intent: ncgs_contact
+  examples: |
+    - How can I contact the NCGSF?
+    - where to contact the NCGSF?
+    - contact person NCGSF?
+
+# remit ***********************************************
+- intent: remit
+  examples: |
+    - what is remit bhutan?
+    - I want know about remit.
+    - remit
+
+- intent: remit_acc
+  examples: |
+    - what are types of account in remit bhutan?
+    - Types of account you can open through remit bhutan.
+    - what kind of account with remit bhutan.
+    - account type in remit bhutan.
+    - remit bhutan accounts.
+
+- intent: remit_channel
+  examples: |
+    - What delivery channel facilities are available under Remit Bhutan account?
+    - Different delivery channel for remit bhutan account.
+    - remit bhutan delivery channel.
+
+- intent: remit_channel
+  examples: |
+    - What delivery channel facilities are available under Remit Bhutan account?
+    - Different delivery channel for remit bhutan account.
+    - remit bhutan delivery channel.
+
+- intent: remit_open_acc
+  examples: |
+    - How to open Account through Remit Bhutan?
+    - remit bhutan account opening.
+    - opening remit account
+
+- intent: remit_access
+  examples: |
+    - How to access your REMITBHUTAN account?
+    - remit bhutan access
+    - I can't access remit bhutan account.
+    - I have problem with remit bhutan.
+
+- intent: remit_transfer
+  examples: |
+    - How to Transfer money from abroad into your REMITBHUTAN account?
+    - remit bhutan transfer money from abroad.
+    - abroad transfer money to remit bhutan account.
+    - abroad to remit bhutan.
+
+- intent: remit_withdrawal
+  examples: |
+    - What are the withdrawal facilities from the foreign currency account?
+    - remit bhutan facilities.
+    - withdrawal facilities for the remit bhutan.
+    - abroad sending money withdrawal facility.
+
+- intent: remit_addition
+  examples: |
+    - What additional incentives are available under the NRB Account?
+    - NBR additional facilities.
+    - I wanted to know the additional incentives under NRB account.
